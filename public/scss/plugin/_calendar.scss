@@ -1,0 +1,33 @@
+.fc{
+    * {
+        color: var(--text-color);
+    }
+    .fc-col-header-cell-cushion{
+        color: var(--text-color);
+    }
+    .fc-h-event .fc-event-title{
+        color: var(--white-color);
+    }
+    .fc-h-event{
+        background-color: var(--text-color);
+        border-color: transparent;
+    }
+    .fc-daygrid-event-dot{
+        border-color: var(--text-color);
+    }
+    .fc-button-primary{
+        background-color: var(--text-color);
+        color: var(--white-color);
+        .fc-icon {
+            color: var(--white-color);
+        }
+    }
+}
+
+.fc-theme-standard{
+    .fc-scrollgrid,
+    td,
+    th{
+        border-color: transparent;
+    }
+}

@@ -1,0 +1,528 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>:: e-learn:: Purchase</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Favicon-->
+
+    <!-- project css file  -->
+    <link rel="stylesheet" href="assets/css/e-learn.style.min.css">
+</head>
+<body>
+
+<div id="elearn-layout" class="theme-purple">
+    <!-- sidebar -->
+    <div class="sidebar px-4 py-4 py-md-4  me-0">
+        <div class="d-flex flex-column h-100">
+            <a href="index.html" class="mb-0 brand-icon">
+                <span class="logo-icon">
+                    <svg  width="35" height="35" fill="currentColor" class="bi bi-app-indicator" viewBox="0 0 16 16">
+                        <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
+                        <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    </svg>
+                </span>
+                <span class="logo-text">e-learn</span>
+            </a>
+            <!-- Menu: main ul -->
+            <ul class="menu-list flex-grow-1 mt-3">
+                <li><a class="m-link" href="index.html"><i class="icofont-ui-home"></i><span>Dashboard</span></a></li>
+                <li><a class="m-link" href="classes.html"><i class="icofont-read-book-alt"></i> <span>Classes</span></a></li>
+                <li><a class="m-link" href="students.html"><i class="icofont-group-students"></i> <span>Students</span></a></li>
+                <li class="collapsed"><a class="m-link" data-bs-toggle="collapse" data-bs-target="#menu-Teachers" href="#"><i class="icofont-teacher"></i><span>Teachers</span><span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <ul class="sub-menu collapse" id="menu-Teachers">
+                        <li><a class="ms-link" href="all-teachers.html"><span>Teachers</span></a></li>
+                        <li><a class="ms-link" href="teachers-info.html"><span>Teachers Profile</span></a></li>
+                    </ul>
+                </li>
+                <li><a class="m-link" href="video-class.html"><i class="icofont-black-board"></i> <span>Video Classes</span></a></li>
+                <li class="collapsed"><a class="m-link active" data-bs-toggle="collapse" data-bs-target="#corses-Components" href="#"><i class="icofont-certificate"></i> <span>Courses</span><span class="arrow icofont-dotted-down ms-auto text-end fs-5"></span></a>
+                    <ul class="sub-menu collapse show" id="corses-Components">
+                        <li><a class="ms-link" href="courses.html"><span>Courses</span></a></li>
+                        <li><a class="ms-link active" href="purchase.html"><span>Course Purchase</span></a></li>
+                    </ul>
+                </li>
+                <li><a class="m-link" href="chat.html"><i class="icofont-ui-text-chat"></i> <span>Massages</span></a></li>
+                <li><a class="m-link" href="reviews.html"><i class="icofont-match-review"></i> <span>Reviews</span></a></li>
+                <li><a class="m-link" href="file-storage/index.html"><i class="icofont-cloud-upload"></i> <span>File Cloud</span></a></li>
+                <li><a class="m-link" href="ui-elements/ui-alerts.html"><i class="icofont-paint"></i> <span>UI Components</span></a></li>
+            </ul>
+
+            <!-- Theme: Switch Theme -->
+            <ul class="list-unstyled mb-0">
+                <li class="d-flex align-items-center justify-content-center">
+                    <div class="form-check form-switch theme-switch">
+                        <input class="form-check-input" type="checkbox" id="theme-switch">
+                        <label class="form-check-label" for="theme-switch">Enable Dark Mode!</label>
+                    </div>
+                </li>
+                <li class="d-flex align-items-center justify-content-center">
+                    <div class="form-check form-switch theme-rtl">
+                        <input class="form-check-input" type="checkbox" id="theme-rtl">
+                        <label class="form-check-label" for="theme-rtl">Enable RTL Mode!</label>
+                    </div>
+                </li>
+            </ul>
+            <!-- Menu: menu collepce btn -->
+            <button type="button" class="btn btn-link sidebar-mini-btn text-light">
+                <span class="ms-2"><i class="icofont-bubble-right"></i></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- main body area -->
+    <div class="main px-lg-4 px-md-4">
+
+        <!-- Body: Header -->
+        <div class="header">
+            <nav class="navbar py-4">
+                <div class="container-xxl">
+    
+                    <!-- header rightbar icon -->
+                    <div class="h-right d-flex align-items-center mr-5 mr-lg-0 order-1">
+                        <div class="d-flex">
+                            <a class="nav-link text-primary collapsed" href="help.html" title="Get Help">
+                                <i class="icofont-info-square fs-5"></i>
+                            </a>
+                            <div class="avatar-list avatar-list-stacked px-3">
+                                <img class="avatar rounded-circle" src="assets/images/xs/avatar2.jpg" alt="">
+                                <img class="avatar rounded-circle" src="assets/images/xs/avatar1.jpg" alt="">
+                                <img class="avatar rounded-circle" src="assets/images/xs/avatar3.jpg" alt="">
+                                <img class="avatar rounded-circle" src="assets/images/xs/avatar4.jpg" alt="">
+                                <img class="avatar rounded-circle" src="assets/images/xs/avatar7.jpg" alt="">
+                                <img class="avatar rounded-circle" src="assets/images/xs/avatar8.jpg" alt="">
+                                <span class="avatar rounded-circle text-center pointer" data-bs-toggle="modal" data-bs-target="#addUser"><i class="icofont-ui-add"></i></span>
+                            </div>
+                        </div>
+                        <div class="dropdown notifications zindex-popover">
+                            <a class="nav-link dropdown-toggle pulse" href="#" role="button" data-bs-toggle="dropdown">
+                                <i class="icofont-alarm fs-5"></i>
+                                <span class="pulse-ring"></span>
+                            </a>
+                            <div id="NotificationsDiv" class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-sm-end p-0 m-0">
+                                <div class="card border-0 w380">
+                                    <div class="card-header border-0 p-3">
+                                        <h5 class="mb-0 font-weight-light d-flex justify-content-between">
+                                            <span>Notifications</span>
+                                            <span class="badge text-white">14</span>
+                                        </h5>
+                                    </div>
+                                    <div class="tab-content card-body">
+                                        <div class="tab-pane fade show active">
+                                            <ul class="list-unstyled list mb-0">
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle" src="assets/images/xs/avatar1.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Molly Cornish</span> <small>2MIN</small></p>
+                                                            <span class="">Added  2021-02-19 e-learn links_no_expiration_report.csv <span class="badge bg-success">Review</span></span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <div class="avatar rounded-circle no-thumbnail">DF</div>
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Diane Fisher</span> <small>13MIN</small></p>
+                                                            <span class="">Server added Get Started with e-learn.pdf</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle" src="assets/images/xs/avatar3.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Andrea Gill</span> <small>1HR</small></p>
+                                                            <span class="">Server added Document.docx</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle" src="assets/images/xs/avatar5.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Diane Fisher</span> <small>13MIN</small></p>
+                                                            <span class="">Add folder on Server</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle" src="assets/images/xs/avatar6.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Andrea Gill</span> <small>1HR</small></p>
+                                                            <span class="">Delete folder on Server</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle" src="assets/images/xs/avatar7.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Zoe Wright</span> <small class="">1DAY</small></p>
+                                                            <span class="">The generated Lorem Ipsum</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a class="card-footer text-center border-top-0" href="#"> View all notifications</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown user-profile ml-2 ml-sm-3 d-flex align-items-center zindex-popover">
+                            <div class="u-info me-2">
+                                <p class="mb-0 text-end line-height-sm "><span class="font-weight-bold">Molly Cornish</span></p>
+                                <small>Student Profile</small>
+                            </div>
+                            <a class="nav-link dropdown-toggle pulse p-0" href="#" role="button" data-bs-toggle="dropdown" data-bs-display="static">
+                                <img class="avatar lg rounded-circle img-thumbnail" src="../dist/assets/images/profile_av.png" alt="profile">
+                            </a>
+                            <div class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-end p-0 m-0">
+                                <div class="card border-0 w280">
+                                    <div class="card-body pb-0">
+                                        <div class="d-flex py-1">
+                                            <img class="avatar rounded-circle" src="../dist/assets/images/profile_av.png" alt="profile">
+                                            <div class="flex-fill ms-3">
+                                                <p class="mb-0"><span class="font-weight-bold">Molly Cornish</span></p>
+                                                <small class="">molly.cornish@gamil.com</small>
+                                            </div>
+                                        </div>
+                                        <div><hr class="dropdown-divider border-dark"></div>
+                                    </div>
+                                    <div class="list-group m-2 ">
+                                        <a href="students.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-graduate-alt fs-6 me-3"></i>Student Profile</a>
+                                        <a href="video-class.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-black-board fs-6 me-3"></i>Video Class</a>
+                                        <a href="../dist/ui-elements/auth-signin.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-logout fs-6 me-3"></i>Signout</a>
+                                        <div><hr class="dropdown-divider border-dark"></div>
+                                        <a href="../dist/ui-elements/auth-signup.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-contact-add fs-5 me-3"></i>Add personal account</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- menu toggler -->
+                    <button class="navbar-toggler p-0 border-0 menu-toggle order-3" type="button" data-bs-toggle="collapse" data-bs-target="#mainHeader">
+                        <span class="fa fa-bars"></span>
+                    </button>
+    
+                    <!-- main menu Search-->
+                    <div class="order-0 col-lg-4 col-md-4 col-sm-12 col-12 mb-3 mb-md-0 ">
+                        <div class="input-group flex-nowrap input-group-lg">
+                            <button type="button" class="input-group-text" id="addon-wrapping"><i class="fa fa-search"></i></button>
+                            <input type="search" class="form-control" placeholder="Search" aria-label="search" aria-describedby="addon-wrapping">
+                            <button type="button" class="input-group-text add-member-top" id="addon-wrappingone" data-bs-toggle="modal" data-bs-target="#addUser"><i class="fa fa-plus"></i></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </nav>
+        </div>
+
+        <!-- Body: Body -->
+        <div class="body d-flex py-lg-3 py-md-2">
+            <div class="container-xxl">
+                <div class="row g-3 py-3">
+                    <div class="col-lg-8 col-md-8 order-2 order-sm-2 order-md-1">
+                        <a href="#" title="course-img">
+                            <img src="assets/images/video-img/video1.jpg" alt="digital product" class="img-fluid img-thumbnail">
+                        </a>
+                        <div class="card mt-3">
+                            <div class="card-header py-3">
+                                <h6 class="mb-0 fw-bold ">Description of Environmental Engineering</h6>
+                            </div>
+                            <div class="card-body pt-0">
+                                <p class="mb-3 ">
+                                    The Civil engineer must be aware of the environmental effects of pollutants and should be able
+                                    to understand the pollutants, their characteristics and manage systems to mitigate them.
+                                </p>
+                                <div class="order-list">
+                                    <ul class="list-group">
+                                        <li class="list-group-item d-flex flex-wrap">
+                                            <a href="#" class=" fw-bold">1. Introduction</a>
+                                            <div class="ms-auto d-flex align-items-center">
+                                                <span class="text-muted"><i class="icofont-wall-clock "></i> 45:00 Min</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex flex-wrap">
+                                            <a href="#" class=" fw-bold">2. Quality and Quantity of Water for supply to towns/Cities</a>
+                                            <div class="ms-auto">
+                                                <span class="text-muted"><i class="icofont-wall-clock "></i> 45:00 Min</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex flex-wrap">
+                                            <a href="#" class=" fw-bold">3. Characteristics of Wastewater</a>
+                                            <div class="ms-auto">
+                                                <span class="text-muted"><i class="icofont-wall-clock "></i> 45:00 Min</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex flex-wrap">
+                                            <a href="#" class=" fw-bold">4. House Drainage</a>
+                                            <div class="ms-auto">
+                                                <span class="text-muted"><i class="icofont-wall-clock "></i> 45:00 Min</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex flex-wrap">
+                                            <a href="#" class=" fw-bold">5. Solid Waste Management</a>
+                                            <div class="ms-auto">
+                                                <span class="text-muted"><i class="icofont-wall-clock "></i> 45:00 Min</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex flex-wrap">
+                                            <a href="#" class=" fw-bold">6. Air Pollution</a>
+                                            <div class="ms-auto">
+                                                <span class="text-muted"><i class="icofont-wall-clock "></i> 45:00 Min</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex flex-wrap">
+                                            <a href="#" class=" fw-bold">7. Noise Pollution</a>
+                                            <div class="ms-auto">
+                                                <span class="text-muted"><i class="icofont-wall-clock "></i> 45:00 Min</span>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item d-flex flex-wrap">
+                                            <a href="#" class=" fw-bold">8. Introduction to: “The environment (Protection)</a>
+                                            <div class="ms-auto">
+                                                <span class="text-muted"><i class="icofont-wall-clock"></i> 45:00 Min</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 order-1 order-sm-1 order-md-2">
+                        <div class="card sticky-top">
+                            <div class="card-body">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="dropdown">
+                                        <button type="button" class="dropdown-toggle  btn btn-secondary" data-bs-toggle="dropdown" aria-expanded="false">Monthly</button>
+                                        <div class="dropdown-menu py-0">
+                                            <div class="dropdown-item py-3 border-bottom d-flex flex-column">
+                                                <div class="d-flex align-items-center mb-2">
+                                                    <span>Montly</span>
+                                                    <strong class="ms-auto h4 m-0">$220.00</strong>
+                                                </div>
+                                                <ul class="ps-4 mb-2 text-muted">
+                                                    <li>Use for a single month</li>
+                                                    <li>Basic access to app</li>
+                                                </ul>                                                
+                                            </div>
+                                            <div class="dropdown-item py-3 d-flex flex-column">
+                                                <div class="d-flex align-items-center mb-2">
+                                                    <span>Yearly</span>
+                                                    <span class="ms-auto h4 m-0">$1200.00</span>
+                                                </div>
+                                                <ul class="ps-4 mb-2 text-muted">
+                                                    <li>Use for a year</li>
+                                                    <li>PRO acces to app</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ms-auto h3 mb-0 "><strong>$220.00</strong></div>
+                                </div>
+                    
+                                <div class="mt-4 mb-3">
+                                    <button type="button" class="btn btn-success text-body w-100">Purchase</button>
+                                </div>
+                    
+                                <div class="mb-4 text-center">
+                                    <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                        <span class="mb-2 me-3">
+                                            <a href="#" class="rating-link active"><i class="bi bi-star-fill text-warning"></i></a>
+                                            <a href="#" class="rating-link active"><i class="bi bi-star-fill text-warning"></i></a>
+                                            <a href="#" class="rating-link active"><i class="bi bi-star-fill text-warning"></i></a>
+                                            <a href="#" class="rating-link active"><i class="bi bi-star-fill text-warning"></i></a>
+                                            <a href="#" class="rating-link active"><i class="bi bi-star-half text-warning"></i></a>
+                                        </span>
+                                        <div class="d-flex align-items-center">
+                                            <strong>4.5/5</strong>
+                                            <span class="text-muted ms-1">— 149 reviews</span>
+                                        </div>
+                    
+                                    </div>
+                                </div>
+                    
+                                <div class="list-group list-group-flush mb-4">
+                                    <div class="list-group-item bg-transparent d-flex align-items-center px-0">
+                                        <strong class="">Lessons</strong>
+                                        <div class="ms-auto">8</div>
+                                    </div>
+                                    <div class="list-group-item bg-transparent d-flex align-items-center px-0">
+                                        <strong class="">Released</strong>
+                                        <div class="ms-auto">17 March 2021</div>
+                                    </div>
+                                    <div class="list-group-item bg-transparent d-flex align-items-center px-0">
+                                        <strong class="">Students</strong>
+                                        <div class="ms-auto">100</div>
+                                    </div>
+                                </div>
+                    
+                                <div class="card card-body mb-0 bg-dark">
+                                    <ul class="list-unstyled text-white ms-1 mb-0">
+                                        <li class="d-flex align-items-center pb-1"><i class="bi bi-check2-circle me-2"></i> 100% Money Back Guarantee</li>
+                                        <li class="d-flex align-items-center pb-1"><i class="bi bi-check2-circle  me-2"></i> 6 Months Support</li>
+                                        <li class="d-flex align-items-center"><i class="bi bi-check2-circle  me-2"></i>Future updates</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Members-->
+        <div class="modal fade" id="addUser" tabindex="-1" aria-labelledby="addUserLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title  fw-bold" id="addUserLabel">Invite Friend's</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="inviteby_email">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Members Invite" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-dark" type="button" id="button-addon2">Members Invite</button>
+                        </div>
+                    </div>
+                    <div class="members_list">
+                        <h6 class="fw-bold ">Members of e-learn</h6>
+                        <ul class="list-unstyled list-group list-group-custom list-group-flush mb-0">
+                            <li class="list-group-item py-3 text-center text-md-start">
+                                <div class="d-flex align-items-center flex-column flex-sm-column flex-md-row">
+                                    <div class="no-thumbnail mb-2 mb-md-0">
+                                        <img class="avatar lg rounded-circle" src="assets/images/xs/avatar2.jpg" alt="">
+                                    </div>
+                                    <div class="flex-fill ms-3 text-truncate">
+                                        <h6 class="mb-0  fw-bold">Rachel Carr(you)</h6>
+                                        <span class="text-muted">rachel.carr@gmail.com</span>
+                                    </div>
+                                    <div class="members-action">
+                                        <span class="members-role ">Admin</span>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="icofont-ui-settings  fs-6"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                              <li><a class="dropdown-item" href="#"><i class="icofont-ui-password fs-6 me-2"></i>ResetPassword</a></li>
+                                              <li><a class="dropdown-item" href="#"><i class="icofont-chart-line fs-6 me-2"></i>ActivityReport</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item py-3 text-center text-md-start">
+                                <div class="d-flex align-items-center flex-column flex-sm-column flex-md-row">
+                                    <div class="no-thumbnail mb-2 mb-md-0">
+                                        <img class="avatar lg rounded-circle" src="assets/images/xs/avatar3.jpg" alt="">
+                                    </div>
+                                    <div class="flex-fill ms-3 text-truncate">
+                                        <h6 class="mb-0  fw-bold">Lucas Baker<a href="#" class="link-secondary ms-2">(Resend invitation)</a></h6>
+                                        <span class="text-muted">lucas.baker@gmail.com</span>
+                                    </div>
+                                    <div class="members-action">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Members
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                              <li>
+                                                  <a class="dropdown-item" href="#">
+                                                    <i class="icofont-check-circled"></i>
+                                                        Member
+                                                    <span>Can view, edit, delete, comment on and save files</span>
+                                                   </a>
+                                                   
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fs-6 p-2 me-1"></i>
+                                                            Admin
+                                                        <span>Member, but can invite and manage team members</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="icofont-ui-settings  fs-6"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                              <li><a class="dropdown-item" href="#"><i class="icofont-delete-alt fs-6 me-2"></i>Delete Member</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item py-3 text-center text-md-start">
+                                <div class="d-flex align-items-center flex-column flex-sm-column flex-md-row">
+                                    <div class="no-thumbnail mb-2 mb-md-0">
+                                        <img class="avatar lg rounded-circle" src="assets/images/xs/avatar8.jpg" alt="">
+                                    </div>
+                                    <div class="flex-fill ms-3 text-truncate">
+                                        <h6 class="mb-0  fw-bold">Una Coleman</h6>
+                                        <span class="text-muted">una.coleman@gmail.com</span>
+                                    </div>
+                                    <div class="members-action">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Members
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                              <li>
+                                                  <a class="dropdown-item" href="#">
+                                                    <i class="icofont-check-circled"></i>
+                                                        Member
+                                                    <span>Can view, edit, delete, comment on and save files</span>
+                                                   </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fs-6 p-2 me-1"></i>
+                                                            Admin
+                                                        <span>Member, but can invite and manage team members</span>
+                                                       </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="btn-group">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="icofont-ui-settings  fs-6"></i>
+                                                </button>
+                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                  <li><a class="dropdown-item" href="#"><i class="icofont-ui-password fs-6 me-2"></i>ResetPassword</a></li>
+                                                  <li><a class="dropdown-item" href="#"><i class="icofont-chart-line fs-6 me-2"></i>ActivityReport</a></li>
+                                                  <li><a class="dropdown-item" href="#"><i class="icofont-delete-alt fs-6 me-2"></i>Suspend member</a></li>
+                                                  <li><a class="dropdown-item" href="#"><i class="icofont-not-allowed fs-6 me-2"></i>Delete Member</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Jquery Core Js -->
+<script src="assets/bundles/libscripts.bundle.js"></script>
+
+<!-- Jquery Page Js -->
+<script src="../js/template.js"></script>
+
+</body>
+</html>

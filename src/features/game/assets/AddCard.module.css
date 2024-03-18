@@ -1,0 +1,692 @@
+.modalBackdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12.6907px;
+}
+
+.bg {
+    position: absolute;
+    left: 28.46%;
+    right: 33%;
+    top: 11.15%;
+    bottom: 10.37%;
+    background: #FFFFFF;
+    border: 1.98193px solid #000000;
+    border-radius: 18.8283px;
+}
+
+.bg .exit {
+    position: absolute;
+    left: 3.69%;
+    right: 90.58%;
+    top: 4.91%;
+    bottom: 87.81%;
+    cursor: pointer;
+}
+
+.bg .title {
+    position: absolute;
+    left: 32.61%;
+    right: 18.01%;
+    top: 3.14%;
+    bottom: 79.71%;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4vw;
+    line-height: 40px;
+    color: #434343;
+    cursor: default;
+}
+
+.bg .subTitleOne {
+    position: absolute;
+    left: 13.22%;
+    right: 65.59%;
+    top: 14.01%;
+    bottom: 84.21%;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8vw;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #6157E4;
+    cursor: default;
+}
+
+.bg .containerOne {
+    position: absolute;
+    left: 13.22%;
+    right: 13.06%;
+    top: 16.49%;
+    bottom: 74.18%;
+    background: #F8F8F8;
+    border-radius: 12.7879px;
+
+}
+
+.bg .containerOne .placeholder {
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #F8F8F8;
+    border: 0.947251px solid #655BE1;
+    border-radius: 12.7879px;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #7168E0;
+}
+
+.bg .subTitleTwo {
+
+    position: absolute;
+    left: 14.34%;
+    right: 54.89%;
+    top: 28.7%;
+    bottom: 73.52%;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.8vw;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    color: #6157E4;
+    cursor: default;
+}
+
+.bg .containerTwo {
+    position: absolute;
+    left: 13.22%;
+    right: 13.06%;
+    top: 31.23%;
+    bottom: 56.33%;
+    background: #F8F8F8;
+
+    border-radius: 12.7879px;
+}
+
+.bg .containerTwo .placeholder {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #F8F8F8;
+    border: 0.947251px solid #655BE1;
+    border-radius: 12.7879px;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #7168E0;
+}
+
+.bg .switchContainer {
+    position: absolute;
+    left: 13.06%;
+    right: 13.06%;
+    top: 46.11%;
+    bottom: 49.81%;
+}
+
+.bg .switchContainer .vector {
+    position: absolute;
+    left: 0%;
+    right: 93.55%;
+    top: 11.97%;
+    bottom: 12.77%;
+    fill: #7168E0;
+}
+
+.bg .switchContainer .name {
+    position: absolute;
+    left: 9.84%;
+    right: 59.61%;
+    top: 3%;
+    bottom: -1.92%;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #7168E0;
+    cursor: default;
+}
+
+.bg .switchContainer .switcher {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    position: absolute;
+    left: 51.41%;
+    right: 0%;
+    top: 0%;
+    bottom: -40%;
+    border: 0.6315px solid #B3AEF2;
+    border-radius: 26.8388px;
+}
+
+
+.bg .switchContainer .switcher .element {
+    align-items: center;
+    /*margin-inline: 16px;*/
+    margin-block: 5px;
+    position: relative;
+    width: 33%;
+    border-right: 1px solid #B3AEF2;
+    cursor: pointer;
+
+
+
+}
+
+
+.bg .switchContainer .switcher .element:last-child {
+    border-right: none;
+
+}
+
+.bg .switchContainer .switcher .element .text {
+    /* Главное */
+
+    position: absolute;
+
+    left: 15%;
+
+    font-family: 'Fredoka One', sans-serif;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.8474px;
+    line-height: 17px;
+    /* identical to box height, or 142% */
+    display: flex;
+    align-items: center;
+
+    color: #B3AEF2;
+
+
+
+}
+
+.bg .switchContainer .switcher .element:hover .text {
+
+    color: #655BE1;
+
+
+
+}
+
+.bg .switchContainer .switcher .element:target .text {
+
+    color: #655BE1;
+
+
+
+}
+
+
+
+
+.bg .textArea {
+    position: absolute;
+    left: 13.22%;
+    right: 13.06%;
+    top: 52.72%;
+    bottom: 14.9%;
+
+    background: #F8F8F8;
+
+    border-radius: 12.7879px;
+}
+
+.bg .textArea .placeholder {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #F8F8F8;
+    border: 0.947251px solid #655BE1;
+    border-radius: 12.7879px;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2vw;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #7168E0;
+}
+
+.bg .imageArea {
+
+    position: absolute;
+    left: 13.22%;
+    right: 13.06%;
+    top: 52.72%;
+    bottom: 14.9%;
+
+    background: #F8F8F8;
+    border: 0.947251px solid #655BE1;
+    border-radius: 12.7879px;
+
+}
+.bg .imageArea .inputImage{
+    display: none
+}
+
+.bg .imageArea .placeholder {
+    /* 8726066_image_plus_icon (1) 1 */
+
+    position: absolute;
+    left: 33.15%;
+    right: 33.26%;
+    top: 20.12%;
+    bottom: 35.17%;
+
+
+}
+
+.bg .imageArea .placeholder .vectorAddImage {
+    fill: #7168E0;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+    position: absolute;
+    cursor: pointer;
+}
+
+.bg .imageArea .message {
+
+    position: absolute;
+    left: 28.28%;
+    right: 22.28%;
+    top: 72.5%;
+    bottom: 20.12%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #7168E0;
+
+    cursor: pointer;
+
+
+
+}
+
+.bg .soundArea {
+    position: absolute;
+    left: 13.22%;
+    right: 13.06%;
+    top: 52.72%;
+    bottom: 14.9%;
+
+    background: #F8F8F8;
+    border: 0.947251px solid #655BE1;
+    border-radius: 12.7879px;
+
+
+}
+.bg .soundArea .inputSound{
+    display: none
+}
+
+.bg .soundArea .placeholder {
+
+    /* 8725772_file_plus_icon 1 */
+
+    position: absolute;
+    left: 35.76%;
+    right: 35.87%;
+    top: 12.45%;
+    bottom: 49.78%;
+    cursor: pointer;
+
+
+
+
+}
+
+.bg .soundArea .placeholder .vectorAddSound {
+    fill: #6563FF;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+    position: absolute;
+}
+
+
+
+.bg .soundArea .message {
+
+    /* Главное */
+
+    position: absolute;
+    left: 33.43%;
+    right: 30.32%;
+    top: 54.56%;
+    bottom: 35.36%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 21px;
+    /* identical to box height, or 133% */
+    display: flex;
+    align-items: center;
+
+    color: #7168E0;
+
+    cursor: pointer;
+
+
+
+
+}
+
+.bg .soundArea .horizontalLine{
+/* Vector 12 */
+
+position: absolute;
+/*left: 100%;
+right: -100%;*/
+width: 100%;
+height: 0px;
+bottom: 22.96%;
+top: 77.04%;
+
+/*border: 1.15596px solid #DFDEF1;*/
+/*transform: rotate(180deg);*/
+
+border: 0.31575px solid #B3AEF2;
+/*transform: rotate(180deg);*/
+
+
+
+
+/*transform: rotate(90deg);*/
+
+}
+
+
+
+.checkboxcontainer {
+    position: absolute;
+    left: 18.32%;
+    right: 12.89%;
+    top: 83.7%;
+    bottom: 8.59%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .checkboxcustom {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .checkboxcustom + .checkboxlabel {
+    position: relative;
+    cursor: pointer;
+    padding-left: 28px;
+   
+
+
+    font-family: 'Fredoka One', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 0.8vw;
+line-height: 21px;
+/* identical to box height, or 133% */
+display: flex;
+align-items: center;
+
+color: #5F5F5F;
+
+
+  }
+  
+  .checkboxcustom + .checkboxlabel:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #5F5F5F;
+    border-radius: 50%; /* Make it circular */
+  }
+  
+  .checkboxcustom:checked + .checkboxlabel:before {
+    background: #6563FF; /* Color when checked */
+  }
+  
+  .checkboxcustom:checked + .checkboxlabel:after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 6px;
+    background: #fff;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%; /* Inner circle to indicate checked */
+  }
+
+
+.bg .add {
+    position: absolute;
+    left: 13.06%;
+    right: 13.22%;
+    top: 89.18%;
+    bottom: 5.39%;
+    background: #61BB61;
+    border-radius: 9.15676px;
+    cursor: pointer;
+    border: none;
+}
+
+.bg .add .ajouter {
+    position: absolute;
+    left: 26.1%;
+    right: 26.21%;
+    top: 8.33%;
+    bottom: 16.68%;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+
+
+    /* Ajuster l’image */
+
+
+
+
+
+
+}
+
+.bg .cropBody{
+    /* Search */
+
+position: absolute;
+left: 12.82%;
+right: 13.46%;
+top: 24.43%;
+bottom: 28.95%;
+
+background: #D5D1FF;
+border: 1.08715px solid #655BE1;
+border-radius: 14.6765px;
+
+}
+
+.bg .cropBody .croppedImage{
+    /* Frame */
+
+position: absolute;
+left: 12.07%;
+right: 12.06%;
+top: 12.01%;
+bottom: 12.12%;
+
+background: rgba(255, 255, 255, 0.29);
+mix-blend-mode: plus-lighter;
+opacity: 0.38;
+border-radius: 7.24763px;
+
+}
+
+.bg .cropBody .croppedImage .placeholder{
+    /* majesticons:image-line */
+
+position: absolute;
+left: 34.24%;
+right: 34.27%;
+top: 28.94%;
+bottom: 29.13%;
+
+
+}
+
+.bg .cropBody .croppedImage .placeholder .imageVector{
+    stroke: #655BE1;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+    position: absolute;
+
+
+}
+
+.bg .minus {
+    /* 8726084_minus_icon 1 */
+
+position: absolute;
+left: 12.02%;
+right: 81.49%;
+top: 75.44%;
+bottom: 19.1%;
+
+
+}
+
+.bg .minus .vectorMinus{
+    position: absolute;
+width: 80%;
+height: 80%;
+top: 10%;
+bottom: 10%;
+right: 10%;
+left: 10%;
+fill: #6563FF;
+cursor: pointer;
+
+
+}
+
+.bg .cropLine {
+    /* Vector 11 */
+
+position: absolute;
+left: 22.68%;
+right: 23.4%;
+top: 78.14%;
+bottom: 21.86%;
+
+position: absolute;
+
+/*width: 100%;*/
+height: 0px;
+top: 78.14%;
+bottom: 21.86%;
+
+
+
+border: 0.31575px solid #B3AEF2;
+
+
+}
+
+.bg .cropLineActive {
+    /* Vector 11 */
+
+position: absolute;
+left: 22.68%;
+right: 23.4%;
+top: 78.14%;
+bottom: 21.86%;
+
+position: absolute;
+
+/*width: 100%;*/
+height: 0px;
+top: 77.44%;
+bottom: 21.86%;
+
+
+border: 3.62382px solid #7168E0;
+border-radius: 10px;
+
+
+
+}
+
+.bg .plus {
+    /* Frame 11808667 */
+
+position: absolute;
+left: 82.21%;
+right: 13.46%;
+top: 76.32%;
+bottom: 20.04%;
+
+
+}
+
+.bg .plus .vectorPlus{
+    
+position: absolute;
+width: 100%;
+height: 100%;
+fill: #6563FF;
+cursor: pointer;
+}

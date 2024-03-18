@@ -1,0 +1,43 @@
+.pricing-section {
+	position: relative;
+	overflow: hidden;
+}
+.pricing-block {
+	position: relative;
+	.icon-box {
+		position: relative;
+		padding: 50px 30px 0;
+		background-color: var(--primary-color);
+		text-align: center;
+		&:before {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			height: 75px;
+			width: 100%;
+			border-radius: 50% 50% 0 0;
+			background-color: var(--card-color);
+			content: "";
+		}
+		.icon-outer {
+			position: relative;
+			height: 150px;
+			width: 150px;
+			background-color: var(--card-color);
+			border-radius: 50%;
+			margin: 0 auto;
+			padding: 10px;
+		}
+		i {
+			position: relative;
+			display: block;
+			height: 130px;
+			width: 130px;
+			line-height: 120px;
+			border: 5px solid var(--secondary-color);
+			border-radius: 50%;
+			font-size: 50px;
+			color: var(--secondary-color);
+		}
+	}
+}

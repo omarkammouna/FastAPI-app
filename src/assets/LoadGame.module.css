@@ -1,0 +1,772 @@
+.bg {
+    /* High Contrast | Purple */
+
+    box-sizing: border-box;
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    background: #534F89;
+    border: 1px solid #000000;
+}
+
+.sideNav {
+    /* ADMIN | Sidebar */
+
+    position: absolute;
+    left: 1.77%;
+    right: 81.81%;
+    top: 1.93%;
+    bottom: 2.35%;
+
+    background: #F6F6F9;
+    border: 2.48343px solid #8D84F4;
+    border-radius: 22.9067px;
+
+
+}
+
+.sideNav .logo {
+    /* Frame 11808658 */
+
+    position: absolute;
+    left: 35.18%;
+    right: 35.29%;
+    top: 2.88%;
+    bottom: 90.97%;
+
+
+
+
+}
+
+.sideNav .logo .vector {
+    width: 100%;
+    /* Make the SVG fill the entire width of the container */
+    height: 100%;
+}
+
+.sideNav .line {
+    /* Line 425 */
+
+    position: absolute;
+    /*left: 100%;
+right: -100%;*/
+    width: 100%;
+    height: 0px;
+    top: 11.96%;
+    bottom: 88.04%;
+
+    /*border: 1.15596px solid #DFDEF1;*/
+    /*transform: rotate(180deg);*/
+
+    border: 0.954447px solid #DFDEF1;
+    /*transform: rotate(180deg);*/
+
+}
+
+.sideNav .user {
+    /* Frame 11808463 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 7.17%;
+    right: 7.49%;
+    top: 14.97%;
+    bottom: 77.43%;
+
+    background: #453F93;
+    border: 0.954447px solid #584DE2;
+    border-radius: 15.2712px;
+
+
+}
+
+.sideNav .user .pdp {
+    /* Ellipse 12 */
+
+    position: absolute;
+    /*left: 2.67%;
+    right: 71.67%;
+    top: 14.22%;
+    bottom: 14.22%;*/
+    border-radius: 50%;
+    overflow: hidden;
+    background: url(./images/pdp.svg) 40%;
+    /*border: 1.72947px solid #FFFFFF;*/
+
+
+    /* Ellipse 12 */
+
+
+    left: 5.83%;
+    right: 79.6%;
+    top: 22.45%;
+    bottom: 21.4%;
+
+    /*background: url(image.png);*/
+    border: 1.43167px solid #FFFFFF;
+
+
+}
+
+.sideNav .user .username {
+
+    position: absolute;
+    left: 26.23%;
+    /*right: 36.75%;*/
+    top: 22.45%;
+    bottom: 48.14%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8vw;
+    line-height: 23px;
+    /* or 133% */
+
+    /* Prof. Mahmoud */
+
+
+
+
+    /*font-family: 'Fredoka';
+font-style: normal;
+font-weight: 700;
+font-size: 14.3167px;
+line-height: 19px;*/
+    /* or 133% */
+
+    color: #FFFFFF;
+
+
+
+    color: #FFFFFF;
+
+
+
+    color: #FFFFFF;
+}
+
+.sideNav .user .role {
+
+    position: absolute;
+    left: 26.23%;
+    /*right: 39.42%;*/
+    top: 53.33%;
+    bottom: 20.19%;
+
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.6vw;
+    line-height: 21px;
+    /* identical to box height, or 129% */
+
+
+    /* Administrateur */
+
+
+    /*font-family: 'Fredoka';
+font-style: normal;
+font-weight: 400;
+font-size: 13.3623px;
+line-height: 17px;*/
+    /* identical to box height, or 129% */
+
+    color: #FFFFFF;
+
+
+
+    color: #FFFFFF;
+
+}
+
+.sideNav .user .vector {
+    /* Icons 16px / arrow/Down */
+
+    position: absolute;
+    left: 74.31%;
+    right: 19.86%;
+    top: 45.75%;
+    bottom: 15.79%;
+
+
+
+    transform: rotate(-90deg);
+    fill: white;
+
+
+
+
+
+
+}
+
+.sideNav .search {
+    /* Search */
+
+    position: absolute;
+    left: 7.17%;
+    right: 7.49%;
+    top: 24.8%;
+    bottom: 70.5%;
+
+    background: #E7E7E7;
+    border-radius: 11.4534px;
+
+
+
+
+
+}
+
+.sideNav .search:hover {
+    border: 2.5608px solid #655BE1;
+}
+
+.sideNav .search:active {
+    border: 2.5608px solid #655BE1;
+}
+
+.sideNav .search .searchVector {
+    /* 20px / Search */
+
+    position: absolute;
+    left: 2.91%;
+    right: 88.34%;
+    top: 6.94%;
+    bottom: 22.52%;
+    fill: #8E8E8E;
+
+
+
+
+
+}
+
+.sideNav .search .name {
+    /* Главное */
+
+    position: absolute;
+    left: 14.57%;
+    /*right: 57.57%;*/
+    top: 27.49%;
+    bottom: 24.89%;
+    border-radius: 8px;
+    background-color: #E7E7E7;
+    border: none;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8vw;
+    line-height: 23px;
+    /* or 133% */
+    display: flex;
+    align-items: center;
+
+    color: #8E8E8E;
+
+}
+
+.sideNav .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 7.17%;
+    right: 7.49%;
+    top: 32.18%;
+    /*bottom: 26.59%;*/
+
+
+}
+
+.sideNav .options .elementContainer .optionElement {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11.4534px 15.2712px;
+    gap: 9.54px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 63.45%;
+
+    border: 1.65562px solid #584DE2;
+    border-radius: 11.4534px;
+}
+
+.sideNav .options .elementContainer .optionElement:hover {
+    background-color: #584DE2;
+    /* Change background color on hover */
+}
+
+.sideNav .options .elementContainer .optionElement:active {
+    background-color: #584DE2;
+    /* Change background color on click */
+}
+
+
+.sideNav .options .elementContainer .optionElement .optionName {
+    /* Abonnés */
+
+    width: 169.93px;
+    height: 20px;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #363636;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+.sideNav .options .elementContainer .optionElement:hover .optionName {
+    color: white;
+}
+
+.sideNav .options .elementContainer .optionElement:active .optionName {
+    color: white;
+}
+
+.sideNav .options .elementContainer .optionElement .optionVector {
+    /* 8726460_users_alt_icon 1 */
+
+    width: 27.67px;
+    height: 27.67px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    fill: #584DE2;
+}
+
+.sideNav .options .elementContainer .optionElement:active .optionVector {
+    fill: white;
+}
+
+.sideNav .options .elementContainer .optionElement:hover .optionVector {
+    fill: white;
+}
+
+.sideNav .options .elementContainer .optionElement .vectorDropDown {
+    /* Vector */
+
+    position: absolute;
+
+    right: 5.19%;
+    top: 48.25%;
+    bottom: 8.78%;
+
+    fill: #584DE2;
+}
+
+.sideNav .options .elementContainer .optionElement:active .vectorDropDown {
+    fill: white;
+}
+
+.sideNav .options .elementContainer .optionElement:hover .vectorDropDown {
+    fill: white;
+}
+
+.sideNav .options .elementContainer .list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    position: relative;
+    left: 5.42%;
+    right: 8.75%;
+    top: 37.31%;
+    bottom: 0%;
+
+}
+
+.sideNav .options .elementContainer .list .listElement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5.8357px 18.4476px;
+    gap: 11.53px;
+    height: 50px;
+    position: relative;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 20px;
+    cursor: pointer;
+
+    color: #292929;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.sideNav .options .elementContainer .list .listElement:active {
+    color: #584DE2;
+}
+
+.sideNav .options .elementContainer .list .listElement:hover {
+    color: #584DE2;
+}
+
+.sideNav .logout {
+    font-family: 'Fredoka One', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11.4534px 15.2712px;
+    gap: 9.54px;
+    font-size: 0.8vw;
+    line-height: 26px;
+    position: absolute;
+    left: 9.12%;
+    right: 5.54%;
+    top: 87.49%;
+    bottom: 7.4%;
+    cursor: pointer;
+
+    border-radius: 11.4534px;
+
+
+
+}
+
+.sideNav .logout .icon {
+    /* Message */
+
+    width: 27.74px;
+    height: 27.74px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.body {
+
+    position: absolute;
+    left: 19.32%;
+    right: 2.09%;
+    top: 1.93%;
+    bottom: 2.35%;
+
+
+
+    background: #584DE2;
+    border: 3.13815px solid #8D84F4;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.body .conOne {
+    position: absolute;
+    left: 43.75%;
+    right: 43.78%;
+    top: 27.75%;
+    bottom: 61.15%;
+    animation: shuffleAnimationOne 3s linear 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes shuffleAnimationOne {
+    0% {
+        transform: translateY();
+    }
+
+    100% {
+        transform: translateY(300px);
+
+    }
+}
+
+
+.body .conOne .recOne {
+    /* Rectangle 17924 */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(180deg, #3429BA 0%, #171354 100%), #3429BA;
+    border-radius: 3.37844px;
+    rotate: 30deg;
+
+
+}
+
+
+.body .conTwo {
+
+    position: absolute;
+    left: 43.75%;
+    right: 43.78%;
+    /* top: 33.11%;
+    bottom: 55.79%; */
+    animation: shuffleAnimationTwo 3s linear 3.5s;
+    animation-fill-mode: forwards;
+
+
+    top: 27.46%;
+    bottom: 61.44%;
+
+
+
+}
+
+@keyframes shuffleAnimationTwo {
+    0% {
+        transform: translateY();
+    }
+
+    100% {
+        transform: translateY(300px);
+
+    }
+}
+
+.body .conTwo .recTwo {
+
+    /* Rectangle 17923 */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: #4F44CD;
+    border-radius: 3.37844px;
+    transform: rotate(30deg);
+
+}
+
+.body .conThree {
+    position: absolute;
+    left: 43.75%;
+    right: 43.78%;
+    /* top: 38.47%;
+    bottom: 50.43%; */
+    animation: shuffleAnimationThree 3s linear 3s;
+    animation-fill-mode: forwards;
+
+
+    top: 27.65%;
+    bottom: 61.25%;
+
+}
+
+@keyframes shuffleAnimationThree {
+    0% {
+        transform: translateY();
+    }
+
+    100% {
+        transform: translateY(300px);
+
+    }
+}
+
+.body .conThree .recThree {
+
+    /* Rectangle 17922 */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: #645BD8;
+    border-radius: 3.37844px;
+    transform: rotate(30deg);
+
+}
+
+
+
+
+.body .conFour {
+    left: 43.75%;
+    right: 43.78%;
+    /* top: 43.83%;
+    bottom: 45.07%; */
+    animation: shuffleAnimationFour 3s linear 2.5s;
+    animation-fill-mode: forwards;
+
+
+
+    top: 27.84%;
+    bottom: 61.06%;
+
+    
+}
+
+@keyframes shuffleAnimationFour {
+    0% {
+        transform: translateY();
+    }
+
+    100% {
+        transform: translateY(300px);
+
+    }
+}
+
+.body .conFour .recFour {
+
+
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+
+    background: #857DEB;
+    border-radius: 3.37844px;
+    transform: rotate(30deg);
+
+}
+
+.body .conFive {
+    position: absolute;
+    left: 43.75%;
+    right: 43.78%;
+    /* top: 49.18%;
+    bottom: 39.72%; */
+    animation: shuffleAnimationFive 3s linear 2;
+    animation-fill-mode: forwards;
+
+    top: 28.04%;
+    bottom: 60.86%;
+
+}
+
+@keyframes shuffleAnimationFive {
+    0% {
+        transform: translateY();
+    }
+
+    100% {
+        transform: translateY(300px);
+
+    }
+}
+
+
+.body .conFive .recFive {
+
+    /* Rectangle 17920 */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: #9A94E8;
+    border-radius: 3.37844px;
+    transform: rotate(30deg);
+
+}
+
+.body .conSix {
+    position: absolute;
+    left: 43.75%;
+    right: 43.78%;
+    /* top: 54.54%;
+    bottom: 34.36%; */
+    animation: shuffleAnimationSix 3s linear 1.5s;
+    animation-fill-mode: forwards;
+
+
+    top: 28.23%;
+    bottom: 60.67%;
+
+}
+
+
+@keyframes shuffleAnimationSix {
+    0% {
+        transform: translateY();
+    }
+
+    100% {
+        transform: translateY(300px);
+
+    }
+}
+
+.body .conSix .recSix {
+
+    /* Rectangle 17918 */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: #BDB9F7;
+    border-radius: 3.37844px;
+    transform: rotate(30deg);
+
+}
+
+.body .conSeven {
+    position: absolute;
+    left: 43.75%;
+    right: 43.78%;
+    /* top: 59.9%;
+    bottom: 29%; */
+    animation: shuffleAnimationSeven 3s linear 1s;
+    animation-fill-mode: forwards;
+
+
+    top: 28.42%;
+    bottom: 60.48%;
+
+
+}
+
+@keyframes shuffleAnimationSeven {
+    0% {
+        transform: translateY();
+    }
+
+    100% {
+        transform: translateY(300px);
+
+    }
+}
+.body .conSeven .recSeven {
+    /* Rectangle 17919 */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: #D5D2FB;
+    border-radius: 3.37844px;
+    transform: rotate(30deg);
+
+}

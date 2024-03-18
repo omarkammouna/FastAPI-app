@@ -1,0 +1,917 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>:: e-learn:: Recents Activity</title>
+    <link rel="icon" href="../favicon.ico" type="image/x-icon"> <!-- Favicon-->
+    <!-- project css file  -->
+    <link rel="stylesheet" href="../assets/css/e-learn.style.min.css">
+</head>
+<body>
+
+<div id="elearn-layout" class="theme-black">
+    <!-- sidebar -->
+    <div class="sidebar px-4 py-4 py-md-4  me-0">
+        <div class="d-flex flex-column h-100">
+            <a href="index.html" class="mb-0 brand-icon">
+                <span class="logo-icon">
+                    <svg  width="35" height="35" fill="currentColor" class="bi bi-app-indicator" viewBox="0 0 16 16">
+                        <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
+                        <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    </svg>
+                </span>
+                <span class="logo-text">e-learn</span>
+            </a>
+            <!-- Menu: main ul -->
+            <ul class="menu-list flex-grow-1 mt-3">
+                <li><a class="m-link" href="../index.html"><i class="icofont-graduate fs-5"></i><span>Education</span></a>
+                </li>
+                <li><a class="m-link" href="index.html"><i class="icofont-ui-home"></i><span>Dashboard</span></a>
+                </li>
+                <li><a class="m-link" href="allfile.html"><i class="icofont-file-document"></i> <span>All File</span></a>
+                </li>
+                <li><a class="m-link active" href="recents.html"><i class="icofont-ui-clock"></i> <span>Recents</span></a></li>
+                <li><a class="m-link" href="starred.html"><i class="icofont-star-e-learn"></i> <span>Starred</span></a></li>
+                <li><a class="m-link" href="shared.html"><i class="icofont-slidshare"></i> <span>Shared</span></a></li>
+                <li><a class="m-link" href="users.html"><i class="icofont-man-in-glasses"></i> <span>Users</span></a></li>
+                <li><a class="m-link" href="groups.html"><i class="icofont-group"></i> <span>Groups</span></a></li>
+                <li><a class="m-link" href="file-requests.html"><i class="icofont-files-stack"></i> <span>File Requests</span></a>
+                </li>
+                <li><a class="m-link" href="file-delete.html"><i class="icofont-ui-delete"></i> <span>Deleted files</span></a></li>
+                <li><a class="m-link" href="purchase-plan.html"><i class="icofont-money"></i> <span>Plan Purchase</span></a></li>
+            </ul>
+            <!-- Theme: Switch Theme -->
+            <ul class="list-unstyled mb-0">
+                <li class="d-flex align-items-center justify-content-center">
+                    <div class="form-check form-switch theme-switch">
+                        <input class="form-check-input" type="checkbox" id="theme-switch">
+                        <label class="form-check-label" for="theme-switch">Enable Dark Mode!</label>
+                    </div>
+                </li>
+                <li class="d-flex align-items-center justify-content-center">
+                    <div class="form-check form-switch theme-rtl">
+                        <input class="form-check-input" type="checkbox" id="theme-rtl">
+                        <label class="form-check-label" for="theme-rtl">Enable RTL Mode!</label>
+                    </div>
+                </li>
+            </ul>
+            <!-- Menu: menu collepce btn -->
+            <button type="button" class="btn btn-link sidebar-mini-btn text-light">
+                <span class="ms-2"><i class="icofont-bubble-right"></i></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- main body area -->
+    <div class="main px-lg-4 px-md-4">
+
+        <!-- Body: Header -->
+        <div class="header">
+            <nav class="navbar py-4">
+                <div class="container-xxl">
+    
+                    <!-- header rightbar icon -->
+                    <div class="h-right d-flex align-items-center mr-5 mr-lg-0 order-1">
+                        <div class="d-flex">
+                            <a class="nav-link text-primary collapsed" href="help.html" title="Get Help">
+                                <i class="icofont-info-square fs-5"></i>
+                            </a>
+                            <div class="avatar-list avatar-list-stacked px-3">
+                                <img class="avatar rounded-circle" src="../assets/images/xs/avatar2.jpg" alt="">
+                                <img class="avatar rounded-circle" src="../assets/images/xs/avatar1.jpg" alt="">
+                                <img class="avatar rounded-circle" src="../assets/images/xs/avatar3.jpg" alt="">
+                                <img class="avatar rounded-circle" src="../assets/images/xs/avatar4.jpg" alt="">
+                                <img class="avatar rounded-circle" src="../assets/images/xs/avatar7.jpg" alt="">
+                                <img class="avatar rounded-circle" src="../assets/images/xs/avatar8.jpg" alt="">
+                                <span class="avatar rounded-circle text-center pointer" data-bs-toggle="modal" data-bs-target="#addUser"><i class="icofont-ui-add"></i></span>
+                            </div>
+                        </div>
+                        <div class="dropdown notifications zindex-popover">
+                            <a class="nav-link dropdown-toggle pulse" href="#" role="button" data-bs-toggle="dropdown">
+                                <i class="icofont-alarm fs-5"></i>
+                                <span class="pulse-ring"></span>
+                            </a>
+                            <div id="NotificationsDiv" class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-sm-end p-0 m-0">
+                                <div class="card border-0 w380">
+                                    <div class="card-header border-0 p-3">
+                                        <h5 class="mb-0 font-weight-light d-flex justify-content-between">
+                                            <span>Notifications</span>
+                                            <span class="badge text-white">14</span>
+                                        </h5>
+                                    </div>
+                                    <div class="tab-content card-body">
+                                        <div class="tab-pane fade show active">
+                                            <ul class="list-unstyled list mb-0">
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle" src="../assets/images/xs/avatar1.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Molly Cornish</span> <small>2MIN</small></p>
+                                                            <span class="">Added  2021-02-19 e-learn links_no_expiration_report.csv <span class="badge bg-success">Review</span></span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <div class="avatar rounded-circle no-thumbnail">DF</div>
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Diane Fisher</span> <small>13MIN</small></p>
+                                                            <span class="">Server added Get Started with e-learn.pdf</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle" src="../assets/images/xs/avatar3.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Andrea Gill</span> <small>1HR</small></p>
+                                                            <span class="">Server added Document.docx</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle" src="../assets/images/xs/avatar5.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Diane Fisher</span> <small>13MIN</small></p>
+                                                            <span class="">Add folder on Server</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2 mb-1 border-bottom">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle" src="../assets/images/xs/avatar6.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Andrea Gill</span> <small>1HR</small></p>
+                                                            <span class="">Delete folder on Server</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li class="py-2">
+                                                    <a href="javascript:void(0);" class="d-flex">
+                                                        <img class="avatar rounded-circle" src="../assets/images/xs/avatar7.jpg" alt="">
+                                                        <div class="flex-fill ms-2">
+                                                            <p class="d-flex justify-content-between mb-0 "><span class="font-weight-bold">Zoe Wright</span> <small class="">1DAY</small></p>
+                                                            <span class="">The generated Lorem Ipsum</span>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a class="card-footer text-center border-top-0" href="#"> View all notifications</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown user-profile ml-2 ml-sm-3 d-flex align-items-center zindex-popover">
+                            <div class="u-info me-2">
+                                <p class="mb-0 text-end line-height-sm "><span class="font-weight-bold">Justin Fisher</span></p>
+                                <small>Teacher Profile</small>
+                            </div>
+                            <a class="nav-link dropdown-toggle pulse p-0" href="#" role="button" data-bs-toggle="dropdown" data-bs-display="static">
+                                <img class="avatar lg rounded-circle img-thumbnail" src="../assets/images/profile-teacher.jpg" alt="profile">
+                            </a>
+                            <div class="dropdown-menu rounded-lg shadow border-0 dropdown-animation dropdown-menu-end p-0 m-0">
+                                <div class="card border-0 w280">
+                                    <div class="card-body pb-0">
+                                        <div class="d-flex py-1">
+                                            <img class="avatar rounded-circle" src="../assets/images/profile-teacher.jpg" alt="profile">
+                                            <div class="flex-fill ms-3">
+                                                <p class="mb-0"><span class="font-weight-bold">Justin Fisher</span></p>
+                                                <small class="">justin.fisher@gamil.com</small>
+                                            </div>
+                                        </div>
+                                        
+                                        <div><hr class="dropdown-divider border-dark"></div>
+                                    </div>
+                                    <div class="list-group m-2 ">
+                                        <a href="users.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-ui-settings fs-6 me-3"></i>User Settings</a>
+                                        <a href="groups.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-ui-user-group fs-6 me-3"></i>View team & groups</a>
+                                        <a href="../ui-elements/auth-signin.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-logout fs-6 me-3"></i>Signout</a>
+                                        <div><hr class="dropdown-divider border-dark"></div>
+                                        <a href="../ui-elements/auth-signup.html" class="list-group-item list-group-item-action border-0 "><i class="icofont-contact-add fs-5 me-3"></i>Add personal account</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- menu toggler -->
+                    <button class="navbar-toggler p-0 border-0 menu-toggle order-3" type="button" data-bs-toggle="collapse" data-bs-target="#mainHeader">
+                        <span class="fa fa-bars"></span>
+                    </button>
+    
+                    <!-- main menu Search-->
+                    <div class="order-0 col-lg-4 col-md-4 col-sm-12 col-12 mb-3 mb-md-0 ">
+                        <div class="input-group flex-nowrap input-group-lg">
+                            <button type="button" class="input-group-text" id="addon-wrapping"><i class="fa fa-search"></i></button>
+                            <input type="search" class="form-control" placeholder="Search" aria-label="search" aria-describedby="addon-wrapping">
+                            <button type="button" class="input-group-text add-member-top" id="addon-wrappingone" data-bs-toggle="modal" data-bs-target="#addUser"><i class="fa fa-plus"></i></button>
+                        </div>
+                    </div>
+    
+                </div>
+            </nav>
+        </div>
+
+        <!-- Body: Body -->
+        <div class="body d-flex py-lg-3 py-md-2">
+            <div class="container-xxl">
+                <div class="row clearfix g-3">
+                   <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-12 order-lg-1  order-sm-2 order-2">
+                       <div class="card shadow-sm">
+                           <div class="card-header py-3">
+                                <h6 class="mb-0 fw-bold ">Recents</h6>
+                           </div>
+                           <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-truncate">
+                                                <span class="rounded-circle avatar"><i class="icofont-file-word color-lightblue fs-5"></i></span>
+                                                <p class="mb-0 d-inline-block ">WordFile-ibox.doc</p>
+                                                <p class="small mb-0 mt-1 text-muted">Added 42 minutes ago e-learn</p>
+                                            </td>
+                                            <td class="text-md-end text-truncate overflow-visible">                                            
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="share" data-bs-toggle="modal" data-bs-target="#shareFolder"><i class="icofont-brand-slideshare"></i></button>
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="Comment" data-bs-toggle="modal" data-bs-target="#commentModel"><i class="icofont-comment"></i></button>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Open
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-word me-2 fs-6"></i>Word Document</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-spreadsheet me-2 fs-6"></i>Excel Workbook</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-presentation me-2 fs-6"></i>Powerpoint Presentation</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    More
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteFolder"><i class="icofont-delete-alt me-2 fs-6"></i>Delete</a></li>
+                                                        <li><a class="dropdown-item" href="allfile.html"><i class="icofont-folder me-2 fs-6"></i>View Folder</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-download me-2 fs-6"></i>Download</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-truncate">
+                                                <span class="rounded-circle avatar"><i class="icofont-file-video color-lavender-purple fs-5"></i></span>
+                                                <p class="mb-0 d-inline-block ">Health.mp4</p>
+                                                <p class="small mb-0 mt-1 text-muted">Deleted 12.26 minutes ago Master</p>
+                                            </td>
+                                            <td class="text-md-end">                                            
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="share" data-bs-toggle="modal" data-bs-target="#shareFolder"><i class="icofont-brand-slideshare"></i></button>
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="Comment" data-bs-toggle="modal" data-bs-target="#commentModel"><i class="icofont-comment"></i></button>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Open
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-word me-2 fs-6"></i>Word Document</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-spreadsheet me-2 fs-6"></i>Excel Workbook</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-presentation me-2 fs-6"></i>Powerpoint Presentation</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    More
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteFolder"><i class="icofont-delete-alt me-2 fs-6"></i>Delete</a></li>
+                                                        <li><a class="dropdown-item" href="allfile.html"><i class="icofont-folder me-2 fs-6"></i>View Folder</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-download me-2 fs-6"></i>Download</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-truncate">
+                                                <span class="rounded-circle avatar"><i class="icofont-folder fs-5 color-lightyellow"></i></span>
+                                                <p class="mb-0 d-inline-block ">e-learn project</p>
+                                                <p class="small mb-0 mt-1 text-muted">Added 31 minutes ago e-learn</p>
+                                            </td>
+                                            <td class="text-md-end">                                            
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="share" data-bs-toggle="modal" data-bs-target="#shareFolder"><i class="icofont-brand-slideshare"></i></button>
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="Comment" data-bs-toggle="modal" data-bs-target="#commentModel"><i class="icofont-comment"></i></button>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    More
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteFolder"><i class="icofont-delete-alt me-2 fs-6"></i>Delete</a></li>
+                                                        <li><a class="dropdown-item" href="allfile.html"><i class="icofont-folder me-2 fs-6"></i>View Folder</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-download me-2 fs-6"></i>Download</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-truncate">
+                                                <span class="rounded-circle avatar"><i class="icofont-document-folder color-light-orange fs-5"></i></span>
+                                                <p class="mb-0 d-inline-block ">Images Folder</p>
+                                                <p class="small mb-0 mt-1 text-muted">Open 35 minutes ago e-learn</p>
+                                            </td>
+                                            <td class="text-md-end">                                            
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="share" data-bs-toggle="modal" data-bs-target="#shareFolder"><i class="icofont-brand-slideshare"></i></button>
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="Comment" data-bs-toggle="modal" data-bs-target="#commentModel"><i class="icofont-comment"></i></button>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    More
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteFolder"><i class="icofont-delete-alt me-2 fs-6"></i>Delete</a></li>
+                                                        <li><a class="dropdown-item" href="allfile.html"><i class="icofont-folder me-2 fs-6"></i>View Folder</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-download me-2 fs-6"></i>Download</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-truncate">
+                                                <span class="rounded-circle avatar"><i class="icofont-file-zip color-santa-fe fs-5"></i></span>
+                                                <p class="mb-0 d-inline-block ">Drawing assignment.Zip</p>
+                                                <p class="small mb-0 mt-1 text-muted">Added 2day ago Master</p>
+                                            </td>
+                                            <td class="text-md-end">                                            
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="share" data-bs-toggle="modal" data-bs-target="#shareFolder"><i class="icofont-brand-slideshare"></i></button>
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="Comment" data-bs-toggle="modal" data-bs-target="#commentModel"><i class="icofont-comment"></i></button>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Open
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-word me-2 fs-6"></i>Word Document</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-spreadsheet me-2 fs-6"></i>Excel Workbook</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-presentation me-2 fs-6"></i>Powerpoint Presentation</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    More
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteFolder"><i class="icofont-delete-alt me-2 fs-6"></i>Delete</a></li>
+                                                        <li><a class="dropdown-item" href="allfile.html"><i class="icofont-folder me-2 fs-6"></i>View Folder</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-download me-2 fs-6"></i>Download</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-truncate">
+                                                <span class="rounded-circle avatar"><i class="icofont-file-javascript color-light-orange fs-5"></i></span>
+                                                <p class="mb-0 d-inline-block ">Management.js</p>
+                                                <p class="small mb-0 mt-1 text-muted">Open 1min ago e-learn</p>
+                                            </td>
+                                            <td class="text-md-end">                                            
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="share" data-bs-toggle="modal" data-bs-target="#shareFolder"><i class="icofont-brand-slideshare"></i></button>
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="Comment" data-bs-toggle="modal" data-bs-target="#commentModel"><i class="icofont-comment"></i></button>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Open
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-word me-2 fs-6"></i>Word Document</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-spreadsheet me-2 fs-6"></i>Excel Workbook</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-presentation me-2 fs-6"></i>Powerpoint Presentation</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    More
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteFolder"><i class="icofont-delete-alt me-2 fs-6"></i>Delete</a></li>
+                                                        <li><a class="dropdown-item" href="allfile.html"><i class="icofont-folder me-2 fs-6"></i>View Folder</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-download me-2 fs-6"></i>Download</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-truncate">
+                                                <span class="rounded-circle avatar"><i class="icofont-file-sql color-light-success fs-5"></i></span>
+                                                <p class="mb-0 d-inline-block ">Telecommunications.sql</p>
+                                                <p class="small mb-0 mt-1 text-muted">Open 6 day ago e-learn</p>
+                                            </td>
+                                            <td class="text-md-end">                                            
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="share" data-bs-toggle="modal" data-bs-target="#shareFolder"><i class="icofont-brand-slideshare"></i></button>
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="Comment" data-bs-toggle="modal" data-bs-target="#commentModel"><i class="icofont-comment"></i></button>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Open
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-word me-2 fs-6"></i>Word Document</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-spreadsheet me-2 fs-6"></i>Excel Workbook</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-presentation me-2 fs-6"></i>Powerpoint Presentation</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    More
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteFolder"><i class="icofont-delete-alt me-2 fs-6"></i>Delete</a></li>
+                                                        <li><a class="dropdown-item" href="allfile.html"><i class="icofont-folder me-2 fs-6"></i>View Folder</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-download me-2 fs-6"></i>Download</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-truncate">
+                                                <span class="rounded-circle avatar"><i class="icofont-file-php color-lightblue fs-5"></i></span>
+                                                <p class="mb-0 d-inline-block ">login.php</p>
+                                                <p class="small mb-0 mt-1 text-muted">Open 9 day ago e-learn</p>
+                                            </td>
+                                            <td class="text-md-end">                                            
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="share" data-bs-toggle="modal" data-bs-target="#shareFolder"><i class="icofont-brand-slideshare"></i></button>
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="Comment" data-bs-toggle="modal" data-bs-target="#commentModel"><i class="icofont-comment"></i></button>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Open
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-word me-2 fs-6"></i>Word Document</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-spreadsheet me-2 fs-6"></i>Excel Workbook</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-presentation me-2 fs-6"></i>Powerpoint Presentation</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    More
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteFolder"><i class="icofont-delete-alt me-2 fs-6"></i>Delete</a></li>
+                                                        <li><a class="dropdown-item" href="allfile.html"><i class="icofont-folder me-2 fs-6"></i>View Folder</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-download me-2 fs-6"></i>Download</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="text-truncate">
+                                                <span class="rounded-circle avatar"><i class="icofont-ui-image color-santa-fe fs-5"></i></span>
+                                                <p class="mb-0 d-inline-block ">Arts and Design.png</p>
+                                                <p class="small mb-0 mt-1 text-muted">Delete 12day ago Master</p>
+                                            </td>
+                                            <td class="text-md-end">                                            
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="share" data-bs-toggle="modal" data-bs-target="#shareFolder"><i class="icofont-brand-slideshare"></i></button>
+                                                <button type="button" class="btn  text-decoration-none  rounded-1 " title="Comment" data-bs-toggle="modal" data-bs-target="#commentModel"><i class="icofont-comment"></i></button>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Open
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-word me-2 fs-6"></i>Word Document</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-spreadsheet me-2 fs-6"></i>Excel Workbook</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-file-presentation me-2 fs-6"></i>Powerpoint Presentation</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn  rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    More
+                                                    </button>
+                                                    <ul class="dropdown-menu dropdown-menu-end">
+                                                        <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deleteFolder"><i class="icofont-delete-alt me-2 fs-6"></i>Delete</a></li>
+                                                        <li><a class="dropdown-item" href="allfile.html"><i class="icofont-folder me-2 fs-6"></i>View Folder</a></li>
+                                                        <li><a class="dropdown-item" href="#"><i class="icofont-download me-2 fs-6"></i>Download</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 flex-lg-column  order-lg-2  order-sm-1 order-1">
+                        <div class="sticky-lg-top">
+                            <div class="row row-deck g-3">
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-12">
+                                    <div class="card  bg-lightyellow">
+                                        <div class="card-body d-flex align-items-center justify-content-center flex-column">
+                                            <div class="preview-pane text-center">
+                                                <svg  width="100" height="100" fill="currentColor" class="bi bi-app-indicator color-defult" viewBox="0 0 16 16">
+                                                    <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z"/>
+                                                    <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                                </svg>
+                                                <span class="project-name display-5 fw-bold  d-flex justify-content-center color-defult">e-learn</span>
+                                                <p class="fw-bold  fs-6 mt-2 color-defult">Modified: <span id="datetime"></span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-6 col-lg-12">
+                                    <div class="card color-bg-200">
+                                        <div class="card-header py-3">
+                                                <h6 class="mb-0 fw-bold ">Create File</h6>
+                                        </div>
+                                        <div class="card-body">
+                                                <div class="create-file pb-3">
+                                                    <div class="btn-group w-100">
+                                                        <button type="button" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <i class="icofont-ui-add me-2 fs-6"></i>Create
+                                                        </button>
+                                                        <ul class="dropdown-menu w-100">
+                                                            <li><a class="dropdown-item" href="#"><i class="icofont-file-word me-2 fs-6"></i>Word Document</a></li>
+                                                            <li><a class="dropdown-item" href="#"><i class="icofont-file-spreadsheet me-2 fs-6"></i>Excel Workbook</a></li>
+                                                            <li><a class="dropdown-item" href="#"><i class="icofont-file-presentation me-2 fs-6"></i>Powerpoint Presentation</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="Folder-create pb-3">
+                                                    <h6 class="mb-0 fw-bold  pb-3">New Folder</h6>
+                                                    <button type="button" class="btn btn-dark w-100" data-bs-toggle="modal" data-bs-target="#createFolder"><i class="icofont-folder me-2 fs-6"></i>Create Folder</button>
+                                                </div>
+                                                <div class="upload-list pt-3">
+                                                    <h6 class="mb-0 fw-bold  pb-3">Upload File</h6>
+                                                    <div class="btn-group zindex-fixed w-100">
+                                                        <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                            <i class="icofont-upload me-2 fs-6"></i> Upload
+                                                        </button>
+                                                        <ul class="dropdown-menu w-100">
+                                                            <li class="position-relative pointer">
+                                                                <input type="file" class="chooser">
+                                                                <a class="dropdown-item" href="#"><i class="icofont-file-fill me-2 fs-6"></i>Upload File</a>
+                                                            </li>
+                                                            <li class="position-relative pointer"><input type="file" class="chooser"><a class="dropdown-item" href="#"><i class="icofont-ui-folder me-2 fs-6"></i>Upload Folder</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   
+                   </div>
+                </div><!-- Row End -->
+            </div>
+        </div>
+        
+        <!-- Modal Members-->
+        <div class="modal fade" id="addUser" tabindex="-1" aria-labelledby="addUserLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title  fw-bold" id="addUserLabel">Manage team members</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="inviteby_email">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Members Invite" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-dark" type="button" id="button-addon2">Members Invite</button>
+                        </div>
+                    </div>
+                    <div class="members_list">
+                        <h6 class="fw-bold ">Members of e-learn</h6>
+                        <ul class="list-unstyled list-group list-group-custom list-group-flush mb-0">
+                            <li class="list-group-item py-3 text-center text-md-start">
+                                <div class="d-flex align-items-center flex-column flex-sm-column flex-md-row">
+                                    <div class="no-thumbnail mb-2 mb-md-0">
+                                        <img class="avatar lg rounded-circle" src="../assets/images/xs/avatar2.jpg" alt="">
+                                    </div>
+                                    <div class="flex-fill ms-3 text-truncate">
+                                        <h6 class="mb-0  fw-bold">Rachel Carr(you)</h6>
+                                        <span class="text-muted">rachel.carr@gmail.com</span>
+                                    </div>
+                                    <div class="members-action">
+                                        <span class="members-role ">Admin</span>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="icofont-ui-settings  fs-6"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                              <li><a class="dropdown-item" href="#"><i class="icofont-ui-password fs-6 me-2"></i>ResetPassword</a></li>
+                                              <li><a class="dropdown-item" href="#"><i class="icofont-chart-line fs-6 me-2"></i>ActivityReport</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item py-3 text-center text-md-start">
+                                <div class="d-flex align-items-center flex-column flex-sm-column flex-md-row">
+                                    <div class="no-thumbnail mb-2 mb-md-0">
+                                        <img class="avatar lg rounded-circle" src="../assets/images/xs/avatar3.jpg" alt="">
+                                    </div>
+                                    <div class="flex-fill ms-3 text-truncate">
+                                        <h6 class="mb-0  fw-bold">Lucas Baker<a href="#" class="link-secondary ms-2">(Resend invitation)</a></h6>
+                                        <span class="text-muted">lucas.baker@gmail.com</span>
+                                    </div>
+                                    <div class="members-action">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Members
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                              <li>
+                                                  <a class="dropdown-item" href="#">
+                                                    <i class="icofont-check-circled"></i>
+                                                        Member
+                                                    <span>Can view, edit, delete, comment on and save files</span>
+                                                   </a>
+                                                   
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fs-6 p-2 me-1"></i>
+                                                            Admin
+                                                        <span>Member, but can invite and manage team members</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="icofont-ui-settings  fs-6"></i>
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                              <li><a class="dropdown-item" href="#"><i class="icofont-delete-alt fs-6 me-2"></i>Delete Member</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="list-group-item py-3 text-center text-md-start">
+                                <div class="d-flex align-items-center flex-column flex-sm-column flex-md-row">
+                                    <div class="no-thumbnail mb-2 mb-md-0">
+                                        <img class="avatar lg rounded-circle" src="../assets/images/xs/avatar8.jpg" alt="">
+                                    </div>
+                                    <div class="flex-fill ms-3 text-truncate">
+                                        <h6 class="mb-0  fw-bold">Una Coleman</h6>
+                                        <span class="text-muted">una.coleman@gmail.com</span>
+                                    </div>
+                                    <div class="members-action">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Members
+                                            </button>
+                                            <ul class="dropdown-menu dropdown-menu-end">
+                                              <li>
+                                                  <a class="dropdown-item" href="#">
+                                                    <i class="icofont-check-circled"></i>
+                                                        Member
+                                                    <span>Can view, edit, delete, comment on and save files</span>
+                                                   </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        <i class="fs-6 p-2 me-1"></i>
+                                                            Admin
+                                                        <span>Member, but can invite and manage team members</span>
+                                                       </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="btn-group">
+                                            <div class="btn-group">
+                                                <button type="button" class="btn bg-transparent dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <i class="icofont-ui-settings  fs-6"></i>
+                                                </button>
+                                                <ul class="dropdown-menu dropdown-menu-end">
+                                                  <li><a class="dropdown-item" href="#"><i class="icofont-ui-password fs-6 me-2"></i>ResetPassword</a></li>
+                                                  <li><a class="dropdown-item" href="#"><i class="icofont-chart-line fs-6 me-2"></i>ActivityReport</a></li>
+                                                  <li><a class="dropdown-item" href="#"><i class="icofont-delete-alt fs-6 me-2"></i>Suspend member</a></li>
+                                                  <li><a class="dropdown-item" href="#"><i class="icofont-not-allowed fs-6 me-2"></i>Delete Member</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal Creat Folder-->
+        <div class="modal fade" id="createFolder" tabindex="-1" aria-labelledby="createFolderLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title  fw-bold" id="createFolderLabel">Create Folder</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="inviteby_email">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold ">Name</label>
+                            <input type="text" class="form-control form-control-lg" placeholder="Folder Name">
+                        </div>
+                    </div>
+                    <div class="access_list">
+                        <h6 class="fw-bold ">e-learn</h6>
+                        <ul class="list-unstyled list-group list-group-custom list-group-flush my-3 ">
+                            <li class="list-group-item light-warning-bg rounded-3 mb-1">
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar lg  rounded-1 no-thumbnail bg-lightyellow color-defult"><i class="icofont-folder fs-3"></i></div>
+                                    <div class="flex-fill ms-3 text-truncate">
+                                        <div class="color-defult">Project e-learn</div>
+                                    </div>
+                                    <a href="#" title="click to inside" class="btn btn-link color-defult text-decoration-none shadow-sm rounded-1 "><i class="icofont-dotted-right fs-2 "></i></a>
+                                </div>
+                            </li>
+                            <li class="list-group-item light-warning-bg rounded-3 mb-1">
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar lg  rounded-1 no-thumbnail bg-lightyellow color-defult"><i class="icofont-image fs-3"></i></div>
+                                    <div class="flex-fill ms-3 text-truncate">
+                                        <div class="color-defult">Images</div>
+                                    </div>
+                                    <a href="#" title="click to inside" class="btn btn-link color-defult text-decoration-none shadow-sm rounded-1 "><i class="icofont-dotted-right fs-2 "></i></a>
+                                </div>
+                            </li>
+                            <li class="list-group-item light-warning-bg rounded-3 mb-1">
+                                <div class="d-flex align-items-center">
+                                    <div class="avatar lg  rounded-1 no-thumbnail bg-lightyellow color-defult"><i class="icofont-file-video fs-3"></i></div>
+                                    <div class="flex-fill ms-3 text-truncate">
+                                        <div class="color-defult">Video Editing</div>
+                                    </div>
+                                    <a href="#" title="click to inside" class="btn btn-link color-defult text-decoration-none shadow-sm rounded-1 "><i class="icofont-dotted-right fs-2 "></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancle</button>
+                    <button type="button" class="btn btn-primary">Create</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal Delete Folder/ File-->
+        <div class="modal fade" id="deleteFolder" tabindex="-1" aria-labelledby="deleteFolderLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title  fw-bold" id="deleteFolderLabel">Delete Folder</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class=" mb-0">Do you want to delete <strong>Folder/File name here?</strong></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancle</button>
+                    <button type="button" class="btn btn-danger color-fff">Delete</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Modal: Comment Folder/ File -->
+        <div class="modal fade" id="commentModel" tabindex="-1"  aria-hidden="true">
+            <div class="modal-dialog modal-dialog-vertical modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header color-bg-200">
+                        <h5 class="modal-title">Comment Folder/File </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card-body-height py-4">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <h5 class="fs-5 fw-bold  mb-3">WordFile-ibox.doc</h5>
+                                    <div class="card mb-2">
+                                        <div class="card-body">
+                                            <div class="post">
+                                                <textarea class="form-control" placeholder="Post" rows="4"></textarea>
+                                                <div class="py-3">
+                                                    <a href="#" class="px-3 " title="upload images"><i class="icofont-ui-camera"></i></a>
+                                                    <a href="#" class="px-3 " title="upload video"><i class="icofont-video-cam"></i></a>
+                                                    <a href="#" class="px-3 " title="Send for signuture"><i class="icofont-pen-alt-2"></i></a>
+                                                    <button class="btn btn-primary float-sm-end  mt-2 mt-sm-0">Comment Post</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- .Card End -->
+                                    <ul class="list-unstyled">
+                                        <li class="card mb-2">
+                                            <div class="card-body">
+                                                <div class="d-flex mb-3 pb-3 border-bottom">
+                                                    <img class="avatar rounded-circle" src="../assets/images/xs/avatar1.jpg" alt="">
+                                                    <div class="flex-fill ms-3 text-truncate">
+                                                        <h6 class="mb-0"><span>Nellie Maxwell</span> <span class="text-muted small">posted a status</span></h6>
+                                                        <span class="text-muted">3 hours ago</span>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-item-post">
+                                                    <h6>One of several pieces of information that can inform a teacher to make decisions</h6>
+                                                    <p>Professional knowledge (theories of practice, pedagogy, technology, education, and child and adolescent development</p>
+                                                    <div class="mb-2 mt-4">
+                                                        <a class="me-lg-4 me-2 text-primary" href="#"><i class="icofont-like"></i> Like (105)</a>
+                                                        <a class="me-lg-4 me-2 text-primary" href="#"><i class="icofont-speech-comments"></i> Comment (2)</a>
+                                                        <a class="me-lg-4 me-2 text-primary" href="#"><i class="icofont-brand-slideshare"></i> Share (6)</a>
+                                                    </div>
+                                                    <div>
+                                                        <div class="d-flex mt-3 pt-3 border-top">
+                                                            <img class="avatar rounded-circle" src="../assets/images/xs/avatar2.jpg" alt="">
+                                                            <div class="flex-fill ms-3 text-truncate">
+                                                                <p class="mb-0"><span>Zoe Wright</span> <small class="msg-time">1 hour ago</small></p>
+                                                                <span class="text-muted">I am passionate about primary teaching, science education, technology education, and facilitating teachers to become competent and confident teachers of science and technology.</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex mt-3 pt-3 border-top">
+                                                            <img class="avatar rounded-circle" src="../assets/images/xs/avatar3.jpg" alt="">
+                                                            <div class="flex-fill ms-3 text-truncate">
+                                                                <p class="mb-0"><span>Diane Fisher</span> <small class="msg-time">1 hour ago</small></p>
+                                                                <span class="text-muted">My PhD examined the claim made in many curriculum documents around the world that “learning science helps people to make good decisions.”</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mt-4">
+                                                    <textarea class="form-control" placeholder="Replay"></textarea>
+                                                </div>
+                                            </div>
+                                        </li> <!-- .Card End -->
+                                    </ul>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal share Folder/ File-->
+        <div class="modal fade" id="shareFolder" tabindex="-1" aria-labelledby="shareFolderLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-md modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title  fw-bold" id="shareFolderLabel"> WordFile-ibox.doc</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h4 class=" fw-bold mb-3">Share this file</h4>
+                    <div class="link-share d-flex align-items-center mb-3">
+                        <span>Anyone with this link: </span>
+                        <div class="btn-group">
+                            <button type="button" class="btn rounded-1  dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                Open
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end" style="margin: 0px;">
+                                <li><a class="dropdown-item" href="#"><i class="icofont-eye-alt me-2 fs-6"></i>Can View</a></li>
+                                <li><a class="dropdown-item" href="#"><i class="icofont-ui-edit me-2 fs-6"></i>Can Edit</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="input-group">
+                            <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+                              <option selected>Add an email address,name or group</option>
+                              <option value="1">Jone.garg@gmail.com</option>
+                              <option value="2">one.life@gmail.com</option>
+                              <option value="3">Sweet.hange@gmail.com</option>
+                              <option value="4" class=" fw-bold">+ Add personal account</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" title="copylink" class="fw-bold secondary-color float-start flex-fill"><i class="icofont-link-alt me-3"></i>Copy link</a>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancle</button>
+                    <button type="button" class="btn btn-primary">Share</button>
+                </div>
+            </div>
+            </div>
+        </div>
+       
+        <!-- Copy: Link -->
+        <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 5">
+            <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <strong class="me-auto">Copy link</strong>
+                    <small>Share link</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    <a href="http://pixelwibes.com/" title="copy-link" class="secondary-color">http://pixelwibes.com/</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Jquery Core Js -->
+<script src="../assets/bundles/libscripts.bundle.js"></script>
+
+<!-- Jquery Page Js -->
+<script src="../../js/template.js"></script>
+<script src="../../js/page/allfile.js"></script>
+</body>
+</html>

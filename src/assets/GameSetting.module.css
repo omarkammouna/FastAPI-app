@@ -1,0 +1,1795 @@
+.bg {
+    /* High Contrast | Purple */
+
+    box-sizing: border-box;
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    background: #534F89;
+    border: 1px solid #000000;
+}
+
+.sideNav {
+    /* ADMIN | Sidebar */
+
+    position: absolute;
+    left: 1.77%;
+    right: 81.81%;
+    top: 1.93%;
+    bottom: 2.35%;
+
+    background: #F6F6F9;
+    border: 2.48343px solid #8D84F4;
+    border-radius: 22.9067px;
+
+
+}
+
+.sideNav .logo {
+    /* Frame 11808658 */
+
+    position: absolute;
+    left: 35.18%;
+    right: 35.29%;
+    top: 2.88%;
+    bottom: 90.97%;
+
+
+
+
+}
+
+.sideNav .logo .vector {
+    width: 100%;
+    /* Make the SVG fill the entire width of the container */
+    height: 100%;
+}
+
+.sideNav .line {
+    /* Line 425 */
+
+    position: absolute;
+    /*left: 100%;
+right: -100%;*/
+    width: 100%;
+    height: 0px;
+    top: 11.96%;
+    bottom: 88.04%;
+
+    /*border: 1.15596px solid #DFDEF1;*/
+    /*transform: rotate(180deg);*/
+
+    border: 0.954447px solid #DFDEF1;
+    /*transform: rotate(180deg);*/
+
+}
+
+.sideNav .user {
+    /* Frame 11808463 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 7.17%;
+    right: 7.49%;
+    top: 14.97%;
+    bottom: 77.43%;
+
+    background: #453F93;
+    border: 0.954447px solid #584DE2;
+    border-radius: 15.2712px;
+
+
+}
+
+.sideNav .user .pdp {
+    /* Ellipse 12 */
+
+    position: absolute;
+    /*left: 2.67%;
+    right: 71.67%;
+    top: 14.22%;
+    bottom: 14.22%;*/
+    border-radius: 50%;
+    overflow: hidden;
+    background: url(./images/pdp.svg) 40%;
+    /*border: 1.72947px solid #FFFFFF;*/
+
+
+    /* Ellipse 12 */
+
+
+    left: 5.83%;
+    right: 79.6%;
+    top: 22.45%;
+    bottom: 21.4%;
+
+    /*background: url(image.png);*/
+    border: 1.43167px solid #FFFFFF;
+
+
+}
+
+.sideNav .user .username {
+
+    position: absolute;
+    left: 26.23%;
+    /*right: 36.75%;*/
+    top: 22.45%;
+    bottom: 48.14%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.8vw;
+    line-height: 23px;
+    /* or 133% */
+
+    /* Prof. Mahmoud */
+
+
+
+
+    /*font-family: 'Fredoka';
+font-style: normal;
+font-weight: 700;
+font-size: 14.3167px;
+line-height: 19px;*/
+    /* or 133% */
+
+    color: #FFFFFF;
+
+
+
+    color: #FFFFFF;
+
+
+
+    color: #FFFFFF;
+}
+
+.sideNav .user .role {
+
+    position: absolute;
+    left: 26.23%;
+    /*right: 39.42%;*/
+    top: 53.33%;
+    bottom: 20.19%;
+
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.6vw;
+    line-height: 21px;
+    /* identical to box height, or 129% */
+
+
+    /* Administrateur */
+
+
+    /*font-family: 'Fredoka';
+font-style: normal;
+font-weight: 400;
+font-size: 13.3623px;
+line-height: 17px;*/
+    /* identical to box height, or 129% */
+
+    color: #FFFFFF;
+
+
+
+    color: #FFFFFF;
+
+}
+
+.sideNav .user .vector {
+    /* Icons 16px / arrow/Down */
+
+    position: absolute;
+    left: 74.31%;
+    right: 19.86%;
+    top: 45.75%;
+    bottom: 15.79%;
+
+
+
+    transform: rotate(-90deg);
+    fill: white;
+
+
+
+
+
+
+}
+
+.sideNav .search {
+    /* Search */
+
+    position: absolute;
+    left: 7.17%;
+    right: 7.49%;
+    top: 24.8%;
+    bottom: 70.5%;
+
+    background: #E7E7E7;
+    border-radius: 11.4534px;
+
+
+
+
+
+}
+
+.sideNav .search:hover {
+    border: 2.5608px solid #655BE1;
+}
+
+.sideNav .search:active {
+    border: 2.5608px solid #655BE1;
+}
+
+.sideNav .search .searchVector {
+    /* 20px / Search */
+
+    position: absolute;
+    left: 2.91%;
+    right: 88.34%;
+    top: 6.94%;
+    bottom: 22.52%;
+    fill: #8E8E8E;
+
+
+
+
+
+}
+
+.sideNav .search .name {
+    /* Главное */
+
+    position: absolute;
+    left: 14.57%;
+    /*right: 57.57%;*/
+    top: 27.49%;
+    bottom: 24.89%;
+    border-radius: 8px;
+    background-color: #E7E7E7;
+    border: none;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8vw;
+    line-height: 23px;
+    /* or 133% */
+    display: flex;
+    align-items: center;
+
+    color: #8E8E8E;
+
+}
+
+.sideNav .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 7.17%;
+    right: 7.49%;
+    top: 32.18%;
+    /*bottom: 26.59%;*/
+
+
+}
+
+.sideNav .options .elementContainer .optionElement {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11.4534px 15.2712px;
+    gap: 9.54px;
+    height: 40px;
+    cursor: pointer;
+    position: relative;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 63.45%;
+
+    border: 1.65562px solid #584DE2;
+    border-radius: 11.4534px;
+}
+
+.sideNav .options .elementContainer .optionElement:hover {
+    background-color: #584DE2;
+    /* Change background color on hover */
+}
+
+.sideNav .options .elementContainer .optionElement:active {
+    background-color: #584DE2;
+    /* Change background color on click */
+}
+
+
+.sideNav .options .elementContainer .optionElement .optionName {
+    /* Abonnés */
+
+    width: 169.93px;
+    height: 20px;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #363636;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+.sideNav .options .elementContainer .optionElement:hover .optionName {
+    color: white;
+}
+
+.sideNav .options .elementContainer .optionElement:active .optionName {
+    color: white;
+}
+
+.sideNav .options .elementContainer .optionElement .optionVector {
+    /* 8726460_users_alt_icon 1 */
+
+    width: 27.67px;
+    height: 27.67px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    fill: #584DE2;
+}
+
+.sideNav .options .elementContainer .optionElement:active .optionVector {
+    fill: white;
+}
+
+.sideNav .options .elementContainer .optionElement:hover .optionVector {
+    fill: white;
+}
+
+.sideNav .options .elementContainer .optionElement .vectorDropDown {
+    /* Vector */
+
+    position: absolute;
+
+    right: 5.19%;
+    top: 48.25%;
+    bottom: 8.78%;
+
+    fill: #584DE2;
+}
+
+.sideNav .options .elementContainer .optionElement:active .vectorDropDown {
+    fill: white;
+}
+
+.sideNav .options .elementContainer .optionElement:hover .vectorDropDown {
+    fill: white;
+}
+
+.sideNav .options .elementContainer .list {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    position: relative;
+    left: 5.42%;
+    right: 8.75%;
+    top: 37.31%;
+    bottom: 0%;
+
+}
+
+.sideNav .options .elementContainer .list .listElement {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5.8357px 18.4476px;
+    gap: 11.53px;
+    height: 50px;
+    position: relative;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 20px;
+    cursor: pointer;
+
+    color: #292929;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.sideNav .options .elementContainer .list .listElement:active {
+    color: #584DE2;
+}
+
+.sideNav .options .elementContainer .list .listElement:hover {
+    color: #584DE2;
+}
+
+.sideNav .logout {
+    font-family: 'Fredoka One', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 11.4534px 15.2712px;
+    gap: 9.54px;
+    font-size: 0.8vw;
+    line-height: 26px;
+    position: absolute;
+    left: 9.12%;
+    right: 5.54%;
+    top: 87.49%;
+    bottom: 7.4%;
+    cursor: pointer;
+
+    border-radius: 11.4534px;
+
+
+
+}
+
+.sideNav .logout .icon {
+    /* Message */
+
+    width: 27.74px;
+    height: 27.74px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.body {
+
+    position: absolute;
+    left: 19.32%;
+    right: 2.09%;
+    top: 1.93%;
+    bottom: 2.35%;
+
+    background: #F6F6F9;
+    border: 2.57058px solid #8D84F4;
+    border-radius: 20.4785px;
+}
+
+
+.body .header {
+    /* Frame 11808660 */
+
+    position: absolute;
+    /*left: 3.74%;
+    right: 4.19%;*/
+    top: 4.47%;
+    bottom: 80.59%;
+    left: 3.38%;
+    right: 5.13%;
+
+
+}
+
+.body .header .game {
+    /* Frame 11808665 */
+
+    position: absolute;
+    left: 0%;
+    right: 0.01%;
+    top: 0%;
+    bottom: 59.62%;
+
+
+
+
+
+}
+
+.body .header .game .namePlaceholder {
+    /* Nom du Jeu */
+
+
+    border: none;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 52px;
+
+
+    color: #4C4949;
+
+    background: #F6F6F9;
+
+
+    position: absolute;
+    left: 0%;
+    right: 74.98%;
+    top: 0%;
+    bottom: 0%;
+
+
+
+
+
+
+
+
+}
+
+.body .header .game .edit {
+
+    position: absolute;
+    left: 10.34%;
+    right: 71%;
+    top: 16.67%;
+    bottom: 16.59%;
+
+
+
+    cursor: pointer;
+}
+
+.body .header .game .edit .vectorEdit {
+    /* 8725936_edit_alt_icon 1 */
+
+    width: 100%;
+    height: 100%;
+
+
+    fill: #8A82E4;
+    /*background: #8A82E4;*/
+}
+
+.body .header .game .assisted {
+    /* Frame 11808488 */
+
+    position: absolute;
+    left: 76.97%;
+    right: 6.46%;
+    top: 1.5%;
+    bottom: 1.2%;
+
+    /* Rectangle 17901 */
+
+    background: #655BE1;
+    border: 1.18498px solid #584DE2;
+    border-radius: 6.99881px;
+
+}
+
+.body .header .game .activeAssist {
+
+
+    background: #FDE66E;
+
+}
+
+.body .header .game .assisted .assistedVector {
+    /* Frame 11808518 */
+
+    position: absolute;
+    left: 8.35%;
+    right: 81.64%;
+    top: 10.45%;
+    bottom: 10.85%;
+    height: auto;
+
+    fill: white;
+}
+
+.body .header .game .activeAssist .assistedVector {
+    /* Frame 11808518 */
+
+    position: absolute;
+    left: 8.35%;
+    right: 81.64%;
+    top: 10.45%;
+    bottom: 10.85%;
+    height: auto;
+
+    fill: #655BE1;
+}
+
+.body .header .game .assisted .nameAssisted {
+    /* Assistance */
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    cursor: default;
+
+}
+
+.body .header .game .activeAssist .nameAssisted {
+    /* Assistance */
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1vw;
+    line-height: 35px;
+    text-align: center;
+    color: #655BE1;
+    cursor: default;
+
+}
+
+.switch {
+
+    /*width: 30px;
+height: 20px;*/
+    display: inline-block;
+    background-color: #655BE1;
+    border: 1.72947px solid #FFFFFF;
+    border-radius: 10px;
+
+    /* Frame 11808485 */
+    position: absolute;
+
+    left: 75.35%;
+    right: 9.16%;
+    top: 29.95%;
+    bottom: 25.12%;
+
+
+
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+}
+
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #655BE1;
+    border-radius: 10px;
+
+}
+
+.slider::before {
+    position: absolute;
+    cursor: pointer;
+    content: '';
+    top: 3%;
+    bottom: 3%;
+    left: 5%;
+    right: 53%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    /*transition: 0.4s;*/
+
+}
+
+input:checked+.slider {
+
+    background-color: #FFFFFF;
+}
+
+input:checked+.slider::before {
+
+    transform: translateX(110%);
+    background-color: #655BE1;
+}
+
+
+.body .header .game .expand {
+
+    position: absolute;
+    left: 96.85%;
+    right: 0%;
+    top: 9.26%;
+    bottom: 11.8%;
+
+
+    cursor: pointer;
+
+}
+
+.body .header .game .expand .vectorExpand {
+    /* Vector */
+
+    position: center;
+    width: 90%;
+    height: 90%;
+    fill: #8A82E4;
+
+
+}
+
+.body .header .chooseGame {
+
+
+    position: absolute;
+    left: 0.12%;
+    right: 90.56%;
+    top: 62.91%;
+    bottom: 4.12%;
+
+
+}
+
+.body .header .chooseGame .vectorChooseGame {
+
+    position: absolute;
+    left: 0%;
+    right: 83.1%;
+    top: 0%;
+    bottom: 30.62%;
+
+
+
+    fill: #655BE1;
+}
+
+.body .header .chooseGame .label {
+
+
+    position: absolute;
+    left: 16.89%;
+    right: 0%;
+    top: 2.89%;
+    bottom: 35.25%;
+    cursor: default;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8vw;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #655BE1;
+
+
+
+
+}
+
+.body .header .chooseGame .vectorUnder {
+    /* Vector 4 */
+
+    position: absolute;
+    left: 2.92%;
+    right: 6.12%;
+    top: 100%;
+    bottom: 0%;
+
+    /*border: 4.09569px solid rgba(101, 91, 225, 0.65);*/
+
+
+    border: 2px solid rgba(101, 91, 225, 0.65);
+    border-radius: 10px;
+}
+
+.body .header .filters {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+
+    overflow: hidden;
+    position: absolute;
+    left: 11.99%;
+    right: 5.56%;
+    top: 61.21%;
+    bottom: 0%;
+    max-width: 50vw;
+
+
+
+
+}
+
+.body .header .filters .filterElement {
+    /* Frame 11808513 */
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-direction: row;
+    order: 0;
+    flex-grow: 0;
+    min-width: 60px;
+    max-height: 100%;
+    cursor: pointer;
+    /* Rectangle 17893 */
+
+    background: #F4F4F6;
+    border: 0.819139px solid #584DE2;
+    border-radius: 7.54464px;
+
+
+    flex: none;
+    flex-grow: 0;
+
+
+
+
+}
+
+.body .header .filters .filterElement .content {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.body .header .filters .filterElement .content .name {
+    /* Matière */
+    flex: 1;
+
+    left: 3.51%;
+    right: 30.63%;
+    top: 23.4%;
+    bottom: 29.79%;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.6vw;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #5B5B5B;
+
+
+}
+
+.body .header .filters .filterElement .content .vectorDropDown {
+    /* Vector */
+
+    position: relative;
+
+    right: 1.19%;
+    top: 58.25%;
+    bottom: 8.78%;
+
+    fill: #584DE2;
+}
+
+
+.body .gameContainer {
+
+    /* Frame 11808594 */
+
+    position: absolute;
+    left: 3.37%;
+    right: 5.44%;
+    top: 22.58%;
+    bottom: 3.83%;
+    background: #8E87E4;
+    border: 2.19141px solid #584DE2;
+    border-radius: 16.0462px;
+
+
+
+
+
+}
+
+.body .gameContainer .help {
+
+
+    position: absolute;
+    left: 97.17%;
+    right: 1%;
+    top: 1.31%;
+    bottom: 94.22%;
+    cursor: pointer;
+}
+
+.body .gameContainer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url('./vectors/VectorPurpule.svg');
+    background-repeat: repeat;
+    background-size: 14.5% 16.7%;
+    opacity: 0.1;
+}
+
+.body .gameContainer .help .vector {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: white;
+
+}
+
+.body .gameContainer .cardSwitcher {
+    /* Frame 11808520 */
+
+    position: absolute;
+    left: 38.7%;
+    right: 38.67%;
+    top: 1.78%;
+    bottom: 90.55%;
+
+    /* Rectangle 17897 */
+    background: #F4F4F6;
+    border: 1px solid #584DE2;
+    border-radius: 9.21045px;
+
+}
+
+.body .gameContainer .cardSwitcher .firstChoice {
+    /* Frame 11808509 */
+
+    position: absolute;
+    left: 2%;
+    right: 68.57%;
+    top: 10.17%;
+    bottom: 11.86%;
+
+    cursor: pointer;
+
+
+    border-radius: 6px;
+
+}
+
+.body .gameContainer .cardSwitcher .firstChoice .twoCardsVector {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.body .gameContainer .cardSwitcher .secondChoice {
+    /* Frame 11808509 */
+
+    position: absolute;
+    left: 33.57%;
+    right: 33.57%;
+    top: 10.17%;
+    bottom: 11.86%;
+
+
+    cursor: pointer;
+    border-radius: 6px;
+
+
+    /* Frame 11808509 */
+
+}
+
+.body .gameContainer .cardSwitcher .secondChoice .threeCardsVector {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.body .gameContainer .cardSwitcher .thirdChoice {
+    /* Frame 11808509 */
+
+    position: absolute;
+    left: 68.57%;
+    right: 2%;
+    top: 10.17%;
+    bottom: 11.86%;
+
+    cursor: pointer;
+
+    border-radius: 6px;
+
+}
+
+.body .gameContainer .cardSwitcher .thirdChoice .fourCardsVector {
+    /* Frame 11808570 */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.body .gameContainer .cardSwitcher .firstChoice:hover {
+
+
+    background: #655BE1;
+    border: 1.27963px solid #584DE2;
+
+
+}
+
+.body .gameContainer .cardSwitcher .firstChoice:active {
+
+
+    background: #655BE1;
+    border: 1.27963px solid #584DE2;
+
+
+}
+
+
+
+.body .gameContainer .cardSwitcher .secondChoice:hover {
+
+
+    background: #655BE1;
+    border: 1.27963px solid #584DE2;
+
+
+}
+
+.body .gameContainer .cardSwitcher .secondChoice:active {
+
+
+    background: #655BE1;
+    border: 1.27963px solid #584DE2;
+
+
+}
+
+.body .gameContainer .cardSwitcher .thirdChoice:hover {
+
+
+    background: #655BE1;
+    border: 1.27963px solid #584DE2;
+
+
+}
+
+.body .gameContainer .cardSwitcher .thirdChoice:active {
+
+
+    background: #655BE1;
+    border: 1.27963px solid #584DE2;
+
+
+}
+
+.body .gameContainer .preview {
+    /* Frame 11808488 */
+
+    position: absolute;
+    left: 64.97%;
+    right: 12.46%;
+    top: 1.78%;
+    bottom: 90.55%;
+
+    /* Rectangle 17901 */
+
+    /* Rectangle 17897 */
+
+
+
+    background: #655BE1;
+    border: 2px solid #FFFFFF;
+    border-radius: 9.67098px;
+
+
+
+
+
+}
+
+.body .gameContainer .preview .previewVector {
+    /* Frame 11808518 */
+
+    position: absolute;
+    left: 8.35%;
+    right: 81.64%;
+    top: 28.45%;
+    bottom: 10.85%;
+
+    fill: white;
+}
+
+.body .gameContainer .preview .previewName {
+    /* Assistance */
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+    cursor: default;
+
+}
+
+.switch {
+
+    /*width: 30px;
+height: 20px;*/
+    display: inline-block;
+    background-color: #655BE1;
+    border: 1.72947px solid #FFFFFF;
+    border-radius: 10px;
+
+    /* Frame 11808485 */
+    position: absolute;
+
+    left: 75.35%;
+    right: 9.16%;
+    top: 29.95%;
+    bottom: 25.12%;
+
+
+
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+}
+
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #655BE1;
+    border-radius: 10px;
+
+}
+
+.slider::before {
+    position: absolute;
+    cursor: pointer;
+    content: '';
+    top: 3%;
+    bottom: 3%;
+    left: 7%;
+    right: 47%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    transition: 0.4s;
+
+}
+
+input:checked+.slider {
+
+    background-color: #FFFFFF;
+}
+
+input:checked+.slider::before {
+
+    transform: translateX(100%);
+    background-color: #655BE1;
+}
+
+
+
+.body .gameContainer .half {
+    /* Frame 11808520 */
+
+    position: absolute;
+    left: 10.7%;
+    right: 66.67%;
+    top: 1.78%;
+    bottom: 90.55%;
+
+    /* Rectangle 17897 */
+    background: #655BE1;
+
+    border: 2px solid #372EAA;
+    border-radius: 9.21045px;
+
+}
+
+.body .gameContainer .half .firstChoice {
+    /* Frame 11808509 */
+
+    position: absolute;
+    left: 2%;
+    right: 51%;
+    top: 6%;
+    bottom: 6%;
+    cursor: pointer;
+    background: #8E88DB;
+    border: 2px solid #5F56C6;
+
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+
+}
+
+.body .gameContainer .half .firstChoice .name {
+    position: center;
+
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6vw;
+    line-height: 23px;
+    text-align: center;
+
+    color: #7973CC;
+
+
+}
+
+
+.body .gameContainer .half .secondChoice {
+    /* Frame 11808509 */
+
+    position: absolute;
+    left: 51%;
+    right: 2%;
+    top: 6%;
+    bottom: 6%;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: #8E88DB;
+    border: 2px solid #5F56C6;
+
+    cursor: pointer;
+
+}
+
+.body .gameContainer .half .secondChoice .name {
+    /* Frame 11808570 */
+
+    position: center;
+
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6vw;
+    line-height: 23px;
+    text-align: center;
+
+    color: #7973CC;
+
+
+}
+
+.body .gameContainer .half .firstChoice:hover {
+
+
+    background: #FFFFFF;
+    border: 1.27963px solid #877DFF;
+
+
+}
+
+.body .gameContainer .half .firstChoice:active {
+
+
+    background: #FFFFFF;
+    border: 1.27963px solid #877DFF;
+
+
+}
+
+
+
+.body .gameContainer .half .secondChoice:hover {
+
+
+    background: #FFFFFF;
+    border: 1.27963px solid #877DFF;
+
+
+}
+
+.body .gameContainer .half .secondChoice:active {
+
+
+    background: #FFFFFF;
+    border: 1.27963px solid #877DFF;
+
+
+}
+
+.body .gameContainer .half .firstChoice:hover .name {
+    /* Frame 11808570 */
+
+    color: #584DE2;
+
+}
+
+.body .gameContainer .half .firstChoice:active .name {
+    /* Frame 11808570 */
+
+    color: #584DE2;
+
+}
+
+.body .gameContainer .half .secondChoice:hover .name {
+    /* Frame 11808570 */
+
+    color: #584DE2;
+
+}
+
+.body .gameContainer .half .secondChoice:active .name {
+    /* Frame 11808570 */
+
+    color: #584DE2;
+
+}
+
+.body .gameContainer .cardType {
+
+    position: absolute;
+    left: 10.7%;
+    right: 12.46%;
+    top: 12.63%;
+    bottom: 70.01%;
+
+}
+
+.body .gameContainer .cardType .titleList {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 82.7%;
+
+}
+
+.body .gameContainer .cardType .titleList .title {
+    align-items: center;
+    margin-top: 0px;
+    margin-inline: 20px;
+    position: relative;
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8vw;
+    line-height: 19px;
+    text-align: center;
+    width: 20%;
+    cursor: default;
+
+    color: #FFFFFF;
+
+
+
+}
+
+.body .gameContainer .cardType .cardList {
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 20.3%;
+    bottom: 0%;
+    background: #655BE1;
+    border: 2px solid #FFFFFF;
+    border-radius: 14px;
+
+
+
+
+
+}
+
+
+.body .gameContainer .cardType .cardList .card {
+    align-items: center;
+    margin-inline: 16px;
+    margin-block: 12px;
+    position: relative;
+    width: 25%;
+    border-right: 2px solid #B1B1B1;
+
+
+
+}
+
+.body .gameContainer .cardType .cardList .card:last-child {
+    border-right: none;
+
+}
+
+
+.body .gameContainer .cardType .cardList .card .text {
+
+    position: absolute;
+    left: 0%;
+    right: 75%;
+    top: 0%;
+    bottom: 0%;
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.25);
+    border: 0.236036px solid #717171;
+    border-radius: 4.72072px;
+    cursor: pointer;
+
+
+}
+
+.body .gameContainer .cardType .cardList .card .sound {
+    position: absolute;
+    left: 30%;
+    right: 45%;
+    top: 0%;
+    bottom: 0%;
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.25);
+    border: 0.236036px solid #717171;
+    border-radius: 4.72072px;
+    cursor: pointer;
+
+}
+
+.body .gameContainer .cardType .cardList .card .image {
+    position: absolute;
+    left: 60%;
+    right: 15%;
+    top: 0%;
+    bottom: 0%;
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.25);
+    border: 0.236036px solid #717171;
+    border-radius: 4.72072px;
+    cursor: pointer;
+
+}
+
+.body .gameContainer .cardType .cardList .card .text .textVector {
+    fill: #CCCCCC;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+    height: 80%;
+    width: 80%;
+
+}
+
+.body .gameContainer .cardType .cardList .card .sound .soundVector {
+    fill: #CCCCCC;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+    height: 80%;
+    width: 80%;
+}
+
+.body .gameContainer .cardType .cardList .card .image .imageVector {
+    fill: #CCCCCC;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+    height: 80%;
+    width: 80%;
+}
+
+.body .gameContainer .cardType .cardList .card .text:hover {
+
+
+    background: #FFFFFF;
+    border: 0.236036px solid #717171;
+
+
+}
+
+.body .gameContainer .cardType .cardList .card .sound:hover {
+
+    background: #FFFFFF;
+    border: 0.236036px solid #717171;
+
+}
+
+.body .gameContainer .cardType .cardList .card .image:hover {
+
+    background: #FFFFFF;
+    border: 0.236036px solid #717171;
+
+
+}
+
+.body .gameContainer .cardType .cardList .card .text:hover .textVector {
+    fill: #655BE1;
+
+
+}
+
+.body .gameContainer .cardType .cardList .card .sound:hover .soundVector {
+    fill: #655BE1;
+
+}
+
+.body .gameContainer .cardType .cardList .card .image:hover .imageVector {
+    fill: #655BE1;
+
+}
+
+.body .gameContainer .cardType .cardList .card .text:active {
+
+
+    background: #FFFFFF;
+    border: 0.236036px solid #717171;
+
+
+}
+
+.body .gameContainer .cardType .cardList .card .sound:active {
+
+    background: #FFFFFF;
+    border: 0.236036px solid #717171;
+
+}
+
+.body .gameContainer .cardType .cardList .card .image:active {
+
+    background: #FFFFFF;
+    border: 0.236036px solid #717171;
+
+
+}
+
+.body .gameContainer .cardType .cardList .card .text:active .textVector {
+    fill: #655BE1;
+
+
+}
+
+.body .gameContainer .cardType .cardList .card .sound:active .soundVector {
+    fill: #655BE1;
+
+}
+
+.body .gameContainer .cardType .cardList .card .image:active .imageVector {
+    fill: #655BE1;
+
+}
+
+
+.body .gameContainer .speed {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 5%;
+    right: 7%;
+    top: 35.63%;
+    bottom: 17.01%;
+
+}
+
+.body .gameContainer .speed .option {
+
+    align-items: center;
+    position: relative;
+    border: #000000;
+    margin-inline: 60px;
+    background: radial-gradient(287.97% 275.06% at -59.82% -35.56%, rgba(88, 77, 226, 0.53) 0%, rgba(88, 77, 226, 0.68) 42%, #584DE2 100%)
+        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        , #FFFFFF;
+    border-radius: 17.7557px;
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+    box-sizing: border-box;
+
+    border: 6px solid #FFFFFF;
+    border-radius: 17.7557px;
+
+}
+
+.body .gameContainer .speed .option:hover {
+
+
+
+    border: 6px solid #FFD700;
+
+}
+
+.body .gameContainer .speed .optionDisabled {
+
+
+    /*filter: blur(5px);*/
+    filter: grayscale(100%);
+    opacity: 0.2;
+    /* Adjust the blur intensity as needed */
+    pointer-events: none;
+    /* Disable pointer events when blurred */
+}
+
+.body .gameContainer .speed .option .image {
+    /* 8726030_hourglass_icon 1 */
+
+    position: absolute;
+    left: 36.93%;
+    right: 36.95%;
+    top: 20.63%;
+    bottom: 60.86%;
+
+
+}
+
+.body .gameContainer .speed .option .image .vector {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.body .gameContainer .speed .option .text {
+    /* normal */
+
+    position: absolute;
+    left: 1.36%;
+    right: 1.88%;
+    top: 46.54%;
+    bottom: 36.06%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5vw;
+    line-height: 61px;
+    text-align: center;
+
+    /* identical to box height */
+
+    color: #FFFFFF;
+
+
+}
+
+.body .gameContainer .speed .option .timeFrame {
+    /* Frame 11808557 */
+
+    position: absolute;
+    left: 20.89%;
+    right: 20.54%;
+    top: 79.6%;
+    bottom: 13.26%;
+
+
+}
+
+.body .gameContainer .speed .option .timeFrame .vectorFrame {
+    /* 8725682_clock_three_icon 1 */
+
+    position: absolute;
+    left: 0%;
+    right: 84.71%;
+    top: 11.11%;
+    bottom: 0%;
+
+}
+
+.body .gameContainer .speed .option .timeFrame .vectorFrame .vector {
+    fill: #FFFFFF;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.body .gameContainer .speed .option .timeFrame .time {
+    /* secondes */
+
+    position: absolute;
+    left: 19.11%;
+    right: 0.53%;
+    top: 0%;
+    bottom: 0.16%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8vw;
+    line-height: 22px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.body .gameContainer .playButton {
+
+    position: absolute;
+    left: 41.16%;
+    right: 43.23%;
+    top: 86.35%;
+    bottom: 4.29%;
+    background: #45B056;
+    border: 3.0597px solid #60EB76;
+    border-radius: 15.285px;
+    cursor: pointer;
+
+
+}
+
+.body .gameContainer .playButton .vectorContainer {
+
+    position: absolute;
+    left: 7.53%;
+    right: 64.92%;
+    top: 12.22%;
+    bottom: 09.44%;
+
+
+}
+
+.body .gameContainer .playButton .vectorContainer .vector {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #F6F6F9;
+}
+
+
+.body .gameContainer .playButton .text {
+    /* Jouer */
+
+    position: absolute;
+    left: 36.53%;
+    right: 19.35%;
+    top: 13.44%;
+    bottom: 23.61%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+    line-height: 26px;
+    text-align: center;
+
+    color: #F6F6F9;
+
+
+}

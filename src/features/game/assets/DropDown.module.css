@@ -1,0 +1,93 @@
+.bg {
+    /* Frame 11808508 */
+
+    position: absolute;
+    height:25vw ;
+    width: 25vh;
+    background: #FFFFFF;
+    border: 1.94328px solid #B4B3C4;
+    border-radius: 9.7164px;
+
+}
+
+.bg .ul {
+    position: absolute;
+    width: 100%;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.bg .ul .li {
+    /* 2ème Année */
+
+    align-items: center;
+    position: relative;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.8vw;
+    line-height: 35px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #535353;
+    border-bottom: 1.94328px solid #B4B3C4;
+
+    margin-bottom: 8px;
+    cursor: pointer;
+
+
+}
+
+.bg .ul .li:last-child {
+    border-bottom: none;
+
+}
+
+.bg .add {
+    /* Frame 11808541 */
+
+    position: absolute;
+    left: 6.09%;
+    right: 2.63%;
+    top: 91.87%;
+    bottom: 1.36%;
+    cursor: pointer;
+
+
+}
+
+.bg .add .vector {
+    fill: #584DE2;
+    position: absolute;
+    height: 100%;
+    width: auto;
+
+
+}
+
+.bg .add .text {
+    /* ajouter un niveau scolaire */
+
+    position: absolute;
+    left: 20.18%;
+    right: -0.3%;
+    top: 10%;
+    bottom: 0%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.6vw;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #584DE2;
+
+
+}

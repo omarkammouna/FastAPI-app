@@ -1,0 +1,499 @@
+{
+  "users": [
+    {
+      "email": "example@test.com",
+      "password": "exampletest",
+      "phoneNumber": "22222222",
+      "id": "1"
+    },
+    {
+      "email": "hosni.amine28@gmail.com",
+      "password": "Amine123@",
+      "phoneNumber": "25836027",
+      "id": "2"
+    },
+    {
+      "identifier": {
+        "email": "hosni.amine28@gmail.com",
+        "password": "Amine123@"
+      },
+      "id": "3"
+    },
+    {
+      "identifier": {
+        "phoneNumber": "25836027",
+        "password": "Amine123@"
+      },
+      "id": "4"
+    },
+    {
+      "identifier": {
+        "phoneNumber": "25836026",
+        "password": "Amine123@"
+      },
+      "id": "5"
+    },
+    {
+      "name": "Name4",
+      "familyName": "fam4",
+      "email": "",
+      "phoneNumber": "04040404",
+      "password": "Test04!!",
+      "id": "6"
+    },
+    {
+      "name": "Name4",
+      "familyName": "fam4",
+      "email": null,
+      "phoneNumber": "04040404",
+      "password": "Test04!!",
+      "id": "7"
+    },
+    {
+      "name": "Amine",
+      "familyName": "Hasni",
+      "email": "hosni.amine28@gmail.com",
+      "phoneNumber": "+21625836027",
+      "password": "123456789",
+      "id": "8"
+    }
+  ],
+  "cards": [
+    {
+      "id": "1",
+      "cardText": "helmet",
+      "cardImage": "/img/helmet-1.png",
+      "cardSong": "helmet"
+    },
+    {
+      "id": "2",
+      "cardText": "potion",
+      "cardImage": "/img/potion-1.png",
+      "cardSong": "potion"
+    },
+    {
+      "id": "3",
+      "cardText": "ring",
+      "cardImage": "/img/ring-1.png",
+      "cardSong": "ring"
+    },
+    {
+      "id": "4",
+      "cardText": "scroll",
+      "cardImage": "/img/scroll-1.png",
+      "cardSong": "scroll"
+    },
+    {
+      "id": "5",
+      "cardText": "shield",
+      "cardImage": "/img/shield-1.png",
+      "cardSong": "shield"
+    },
+    {
+      "id": "6",
+      "cardText": "sword",
+      "cardImage": "/img/sword-1.png",
+      "cardSong": "sword"
+    },
+    {
+      "id": "7",
+      "cardText": "shield",
+      "cardImage": "/img/shield-1.png",
+      "cardSong": "shield"
+    },
+    {
+      "id": "8",
+      "cardText": "sword",
+      "cardImage": "/img/sword-1.png",
+      "cardSong": "sword"
+    },
+    {
+      "id": "",
+      "name": "",
+      "textual_content": "",
+      "visual_content": "",
+      "audio_content": "",
+      "search_labels": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "textual_content": "",
+      "visual_content": "",
+      "audio_content": "",
+      "search_labels": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "textual_content": "",
+      "visual_content": "",
+      "audio_content": "",
+      "search_labels": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "textual_content": "",
+      "visual_content": "",
+      "audio_content": "",
+      "search_labels": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "textual_content": "",
+      "visual_content": "",
+      "audio_content": "",
+      "search_labels": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "textual_content": "",
+      "visual_content": "",
+      "audio_content": "",
+      "search_labels": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "textual_content": "",
+      "visual_content": "",
+      "audio_content": "",
+      "search_labels": ""
+    },
+    {
+      "id": "",
+      "name": "",
+      "textual_content": "",
+      "visual_content": "",
+      "audio_content": "",
+      "search_labels": ""
+    }
+  ],
+  "levels": [
+    {
+      "id": "1",
+      "education_level": "PS",
+      "name": "1ére année",
+      "order": 1,
+      "isRtl": false,
+      "ishidden": false
+    },
+    {
+      "id": "2",
+      "education_level": "PS",
+      "name": "2ème année",
+      "order": 2,
+      "isRtl": false,
+      "ishidden": false
+    },
+    {
+      "id": "3",
+      "education_level": "PS",
+      "name": "3ème année",
+      "order": 3,
+      "isRtl": false,
+      "ishidden": false
+    },
+    {
+      "id": "4",
+      "education_level": "PS",
+      "name": "4ème année",
+      "order": 4,
+      "isRtl": false,
+      "ishidden": false
+    },
+    {
+      "id": "5",
+      "education_level": "PS",
+      "name": "5ème année",
+      "order": 5,
+      "isRtl": false,
+      "ishidden": false
+    }
+  ],
+  "thematics": [
+    {
+      "id": "5",
+      "skill_depth": "THE",
+      "name": "division",
+      "order": 5,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "6",
+      "skill_depth": "THE",
+      "name": "orthographe",
+      "order": 6,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "7",
+      "skill_depth": "THE",
+      "name": "past",
+      "order": 7,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "8",
+      "skill_depth": "THE",
+      "name": "respiration",
+      "order": 8,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "1",
+      "skill_depth": "SUB",
+      "name": "math",
+      "order": 1,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "2",
+      "skill_depth": "SUB",
+      "name": "français",
+      "order": 2,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "3",
+      "skill_depth": "SUB",
+      "name": "anglais",
+      "order": 3,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "4",
+      "skill_depth": "SUB",
+      "name": "science",
+      "order": 4,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    }
+  ],
+  "skills": [
+    {
+      "id": "13",
+      "skill_depth": "SKL",
+      "name": "pivot de gauss",
+      "order": 11,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "14",
+      "skill_depth": "SKL",
+      "name": "respiration cellulaire",
+      "order": 12,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    }
+  ],
+  "subthematics": [
+    {
+      "id": "9",
+      "skill_depth": "STHE",
+      "name": "division euclidienne",
+      "order": 9,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "10",
+      "skill_depth": "STHE",
+      "name": "appareil respiratoire",
+      "order": 10,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "11",
+      "skill_depth": "CHA",
+      "name": "pgcd",
+      "order": 11,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "12",
+      "skill_depth": "CHA",
+      "name": "energie",
+      "order": 12,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "11",
+      "skill_depth": "CHA",
+      "name": "pgcd",
+      "order": 11,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "12",
+      "skill_depth": "CHA",
+      "name": "energie",
+      "order": 12,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    }
+  ],
+  "allskills": [
+    {
+      "id": "1",
+      "skill_depth": "SUB",
+      "name": "mathématiques",
+      "order": 1,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "2",
+      "skill_depth": "SUB",
+      "name": "français",
+      "order": 2,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "3",
+      "skill_depth": "SUB",
+      "name": "anglais",
+      "order": 3,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "4",
+      "skill_depth": "SUB",
+      "name": "science",
+      "order": 4,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "5",
+      "skill_depth": "THE",
+      "name": "division",
+      "order": 5,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "6",
+      "skill_depth": "THE",
+      "name": "orthographe",
+      "order": 6,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "7",
+      "skill_depth": "THE",
+      "name": "past",
+      "order": 7,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "8",
+      "skill_depth": "THE",
+      "name": "respiration",
+      "order": 8,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "9",
+      "skill_depth": "STHE",
+      "name": "division euclidienne",
+      "order": 9,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "10",
+      "skill_depth": "STHE",
+      "name": "appareil respiratoire",
+      "order": 10,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "11",
+      "skill_depth": "CHA",
+      "name": "pgcd",
+      "order": 11,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "12",
+      "skill_depth": "CHA",
+      "name": "energie",
+      "order": 12,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "13",
+      "skill_depth": "SKL",
+      "name": "pivot de gauss",
+      "order": 11,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    },
+    {
+      "id": "14",
+      "skill_depth": "SKL",
+      "name": "respiration cellulaire",
+      "order": 12,
+      "isRtl": false,
+      "ishidden": false,
+      "created_at": "13_02_24"
+    }
+  ]
+}

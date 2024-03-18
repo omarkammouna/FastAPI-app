@@ -1,0 +1,1423 @@
+.bg {
+    /* High Contrast | Purple */
+
+    box-sizing: border-box;
+
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    background: #534F89;
+    border: 1px solid #000000;
+}
+
+.sideNav {
+    /* Student | Sidebar */
+
+    position: absolute;
+    left: 0.99%;
+    right: 82.39%;
+    top: 2.13%;
+    bottom: 1.54%;
+    overflow: hidden;
+    background: #FFFFFF;
+    border: 3.46788px solid #8D84F4;
+    border-radius: 26.6952px;
+
+}
+
+.sideNav .logo {
+    /* Frame 11808521 */
+
+    position: absolute;
+    left: 32.97%;
+    right: 32.61%;
+    top: 3%;
+    bottom: 90.59%;
+
+
+}
+
+.sideNav .logo .vector {
+    width: 100%;
+    /* Make the SVG fill the entire width of the container */
+    height: 100%;
+}
+
+.sideNav .line {
+    /* Line 425 */
+
+    position: absolute;
+    /*left: 100%;
+right: -100%;*/
+    width: 100%;
+    height: 0px;
+    top: 12.11%;
+    bottom: 87.89%;
+
+    border: 1.15596px solid #DFDEF1;
+    /*transform: rotate(180deg);*/
+}
+
+.sideNav .user {
+    /* Frame 11808463 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 5.52%;
+    right: 6.52%;
+    top: 14.56%;
+    bottom: 73.44%;
+
+    background: #453F93;
+    border: 1.15596px solid #584DE2;
+    border-radius: 18.4954px;
+
+}
+
+.sideNav .user .pdp {
+    /* Ellipse 12 */
+
+    position: absolute;
+    left: 2.67%;
+    right: 71.67%;
+    top: 14.22%;
+    bottom: 14.22%;
+    border-radius: 50%;
+    overflow: hidden;
+    background: url(./images/pdp.svg);
+    border: 1.72947px solid #FFFFFF;
+}
+
+.sideNav .user .username {
+
+    position: absolute;
+    left: 32%;
+    right: 1.72%;
+    top: 22.22%;
+    bottom: 48.87%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    /* or 133% */
+
+    color: #FFFFFF;
+
+
+
+    color: #FFFFFF;
+}
+
+.sideNav .user .role {
+
+    position: absolute;
+    left: 35%;
+    right: 1.61%;
+    top: 52.78%;
+    bottom: 21.93%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 21px;
+    /* identical to box height, or 129% */
+
+    color: #FFFFFF;
+
+}
+
+.sideNav .user .vector {
+    /* Icons 16px / arrow/Down */
+
+    position: absolute;
+    left: 90%;
+    right: 2.33%;
+    top: 46.11%;
+    bottom: 16.67%;
+
+    transform: rotate(-90deg);
+    fill: white;
+}
+
+.sideNav .search {
+    /* Search */
+
+    position: absolute;
+    left: 6.52%;
+    right: 6.52%;
+    top: 28.78%;
+    bottom: 64.78%;
+
+    background: #E7E7E7;
+
+    border-radius: 13.8715px;
+
+}
+
+.sideNav .search:hover {
+    border: 2.5608px solid #655BE1;
+}
+
+.sideNav .search:active {
+    border: 2.5608px solid #655BE1;
+}
+
+.sideNav .search .searchVector {
+    /* 20px / Search */
+
+    position: absolute;
+    left: 10.33%;
+    right: 86.67%;
+    top: 20%;
+    bottom: 20%;
+    fill: #8E8E8E;
+}
+
+.sideNav .search .name {
+    /* Главное */
+
+    position: absolute;
+    left: 30.67%;
+    right: 31.53%;
+    top: 25%;
+    bottom: 22.96%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.2947px;
+    line-height: 23px;
+    /* or 133% */
+    display: flex;
+    align-items: center;
+
+    color: #8E8E8E;
+
+
+}
+
+.sideNav .options {
+    /* Frame 11808568 */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 6.53%;
+    right: 6.46%;
+    top: 37.63%;
+
+
+}
+
+.sideNav .options .optionElement {
+    /* Frame 6 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13.8357px 18.4476px;
+    gap: 11.53px;
+    height: 50px;
+
+    position: relative;
+
+
+    border: 2px solid #584DE2;
+    border-radius: 13.8357px;
+
+}
+
+.sideNav .options .optionElement:hover {
+    background-color: #584DE2;
+    /* Change background color on hover */
+}
+
+.sideNav .options .optionElement:active {
+    background-color: #584DE2;
+    /* Change background color on click */
+}
+
+
+.sideNav .options .optionElement .optionName {
+    /* Abonnés */
+
+    width: 169.93px;
+    height: 20px;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.1417px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #363636;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+
+}
+
+.sideNav .options .optionElement:hover .optionName {
+    color: white;
+}
+
+.sideNav .options .optionElement:active .optionName {
+    color: white;
+}
+
+.sideNav .options .optionElement .optionVector {
+    /* 8726460_users_alt_icon 1 */
+
+    width: 27.67px;
+    height: 27.67px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    fill: #584DE2;
+}
+
+.sideNav .options .optionElement:active .optionVector {
+    fill: white;
+}
+
+.sideNav .options .optionElement:hover .optionVector {
+    fill: white;
+}
+
+.sideNav .logout {
+    /* Frame 8 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13.8715px 18.4954px;
+    gap: 11.56px;
+
+    position: absolute;
+    left: 6.52%;
+    right: 6.52%;
+    top: 94.11%;
+    bottom: 2.56%;
+
+    border-radius: 13.8715px;
+
+}
+
+.sideNav .logout .icon {
+    /* Message */
+
+    width: 27.74px;
+    height: 27.74px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+
+
+
+
+
+
+.body {
+    /* Frame 11808499 */
+    position: absolute;
+    left: 18.54%;
+    right: 0.97%;
+    top: 2.15%;
+    bottom: 1.58%;
+    background: #FFFFFF;
+    border: 3.13815px solid #8D84F4;
+    border-radius: 15.6907px;
+}
+
+
+
+.body .header {
+    /* Frame 11808497 */
+    position: absolute;
+    left: 3.38%;
+    right: 5.15%;
+    top: 1.43%;
+    bottom: 85.3%;
+}
+
+.body .header .game {
+    /* Frame 11808494 */
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: -7.25%;
+    bottom: 53.42%;
+}
+
+.body .header .game .name {
+    /* Nom du Jeu */
+
+    position: absolute;
+    left: -0.21%;
+    right: 79.84%;
+    top: 6.39%;
+    bottom: 6.09%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 52px;
+
+    color: #4C4949;
+
+
+
+
+
+
+}
+
+.body .header .game .edit {
+    /* 8725936_edit_alt_icon 1 */
+
+    position: absolute;
+    left: 21.7%;
+    right: 75.18%;
+    top: 25.24%;
+    bottom: 15.52%;
+
+
+}
+
+.body .header .game .edit .vectorEdit {
+    /* 8725936_edit_alt_icon 1 */
+
+    width: 100%;
+    height: 100%;
+
+
+    fill: #8A82E4;
+    /*background: #8A82E4;*/
+}
+
+.body .header .game .type {
+    /* Frame 11808543 */
+
+    position: absolute;
+    left: 76.67%;
+    right: 6.19%;
+    top: 15.81%;
+    bottom: 14.42%;
+
+
+    background: #584DE2;
+    border: 1.44662px solid #584DE2;
+    border-radius: 8.54411px;
+}
+
+.body .header .game .type .vectorGameType {
+    /* 6936478_game_gaming_play_player_sports_icon 1 */
+
+    position: absolute;
+    left: 4.93%;
+    right: 84.51%;
+    top: 18.03%;
+    bottom: 22.03%;
+    fill: white;
+
+}
+
+.body .header .game .type .name {
+    /* Cartes Cachées */
+
+    position: absolute;
+    left: 20.07%;
+    right: 16.21%;
+    top: 22.03%;
+    bottom: 20.34%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.6993px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+
+
+}
+
+.body .header .game .type .vectorDropDown {
+    /* Vector */
+
+    position: absolute;
+    left: 88.02%;
+    right: 8.46%;
+    top: 44.41%;
+    bottom: 3.39%;
+
+    fill: #FFFFFF;
+
+
+}
+
+
+.body .header .game .expand {
+    /* 8725874_expand_arrows_alt_icon 1 */
+
+    position: absolute;
+    left: 96.46%;
+    right: -0.14%;
+    top: 14.47%;
+    bottom: 15.47%;
+
+}
+
+.body .header .game .expand .vectorExpand {
+    /* Vector */
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #8A82E4;
+
+    /*background: #8A83E4;*/
+
+}
+
+.body .header .vectorChooseGame {
+    /* 8726111_horizontal_distribution_center_icon 1 */
+
+    position: absolute;
+    left: 0%;
+    right: 98.39%;
+    top: 65.76%;
+    bottom: 15.38%;
+
+    fill: #655BE1;
+}
+
+.body .header .chooseGame {
+    /* CHOISIR JEU */
+
+    position: absolute;
+    left: 1.61%;
+    right: 89.34%;
+    top: 66.55%;
+    bottom: 16.06%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.5133px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #655BE1;
+
+
+}
+
+.body .header .vectorUnder {
+    /* Vector 4 */
+
+    position: absolute;
+    left: 0%;
+    right: 90%;
+    top: 92.94%;
+    bottom: 7.06%;
+
+    border: 2px solid rgba(101, 91, 225, 0.65);
+    border-radius: 10px;
+}
+
+.body .header .filters {
+    /* Frame 11808515 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+
+
+    position: absolute;
+    left: 11.7%;
+    right: 20%;
+
+    top: 60.76%;
+    bottom: 03.18%;
+
+
+
+}
+
+.body .header .filters .filterElement {
+    /* Frame 11808513 */
+    position: relative;
+    display: inline-flex;
+    /* or inline-block */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* Inside auto layout */
+    flex-direction: row;
+    order: 0;
+    flex-grow: 0;
+
+    /* Rectangle 17893 */
+
+    background: #F4F4F6;
+    border: 1.31578px solid #584DE2;
+    border-radius: 9.21045px;
+
+
+}
+
+.body .header .filters .filterElement .content {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.body .header .filters .filterElement .content .name {
+    /* Matière */
+    flex: 1;
+
+    left: 3.51%;
+    right: 30.63%;
+    top: 23.4%;
+    bottom: 29.79%;
+    /*text-align: center;*/
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    /* identical to box height */
+
+    color: #5B5B5B;
+
+
+}
+
+.body .header .filters .filterElement .content .vectorDropDown {
+    /* Vector */
+
+    position: relative;
+
+    right: 1.19%;
+    top: 58.25%;
+    bottom: 8.78%;
+
+    fill: #584DE2;
+}
+
+.body .header .addGame {
+    /* Frame 11808545 */
+
+    position: absolute;
+    left: 76.67%;
+    right: 13.85%;
+    top: 60.76%;
+    bottom: -8%;
+    /* Rectangle 17897 */
+
+
+    background: #CCCCCC;
+    border: 2px solid #E8E8E8;
+    border-radius: 11.9521px;
+
+
+}
+
+.body .header .addGame .gameVector {
+    /* 6936478_game_gaming_play_player_sports_icon 1 */
+
+    position: absolute;
+    left: 8.21%;
+    right: 71.09%;
+    top: 23.4%;
+    bottom: 17.57%;
+    fill: white;
+
+
+}
+
+.body .header .addGame .ajouter {
+    /* Ajouter */
+
+    position: absolute;
+    left: 33.58%;
+    right: 9.7%;
+    top: 21.28%;
+    bottom: 21.28%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.body .header .saveGame {
+    /* Frame 11808516 */
+
+    position: absolute;
+    left: 86.79%;
+    right: -0.5%;
+    top: 60.76%;
+    bottom: -8%;
+    /* Rectangle 17897 */
+
+    background: #61BB61;
+    border: 2px solid #D2FFD2;
+    border-radius: 11.9521px;
+}
+
+.body .header .saveGame .saveVector {
+    /* Vector */
+    /* 8726195_save_floppy_icon 1 */
+
+    position: absolute;
+    left: 7.41%;
+    right: 78.21%;
+    top: 20.82%;
+    bottom: 21.36%;
+
+
+    transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+    fill: white;
+}
+
+.body .header .saveGame .save {
+    /* Sauvegarder */
+
+    position: absolute;
+    left: 24.24%;
+    right: 7.51%;
+    top: 18.69%;
+    bottom: 23.87%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+
+
+
+.body .sets {
+    /* Frame 11808517 */
+
+    position: absolute;
+    left: 3.36%;
+    right: 2.38%;
+    top: 8.12%;;
+    bottom: 1.86%;
+    background: #F7F7FE;
+    border: 2px solid #584DE2;
+    border-radius: 14.6447px;
+    padding-right: 10px;
+}
+
+.body .sets::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url('./vectors/VectorPurpule.svg');
+    background-repeat: repeat;
+    background-size: 16.5% 16.7%;
+    opacity: 0.04;
+}
+
+.body .sets .setsBg {
+    /* Rectangle 17896 */
+
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 0%;
+    bottom: 0%;
+    /*background: #F7F7FE;*/
+    /*border: 2px solid #584DE2;*/
+    border-radius: 14.6447px;
+    overflow: hidden;
+    overflow-y: auto;
+    /* Use auto to show scrollbar only when needed */
+    /*scrollbar-width: thin; /* Show a scrollbar for Firefox */
+    /*scrollbar-color: #7168E0 #D9D9D9; /* Color of the scrollbar thumb and track */
+
+}
+
+/* WebKit (Chrome, Safari) scrollbar */
+.body .sets .setsBg::-webkit-scrollbar {
+    width: 15px;
+    /* Adjust scrollbar width */
+    /*height: 35px; /* Adjust scrollbar height */
+}
+
+.body .sets .setsBg::-webkit-scrollbar-thumb {
+    background-color: #7168E0;
+    /* Color of the scrollbar thumb */
+    border-radius: 10px;
+    /* Add border radius to thumb */
+}
+
+.body .sets .setsBg::-webkit-scrollbar-track {
+    background-color: #D9D9D9;
+    /* Color of the scrollbar track */
+    border-radius: 10px;
+    /* Add border radius to track */
+    margin-block: 8px;
+
+}
+
+/* Hide scrollbar arrows */
+.body .sets .setsBg::-webkit-scrollbar-button {
+    display: none;
+}
+
+/* CSS styles for the flexbox layout */
+.cards {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.rows {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #D1CEF3;
+    justify-content: center; /* Center items horizontally */
+    padding: 10px 0;
+}
+.rowContent {
+    display: flex;
+    align-items: center;
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center items horizontally */
+}
+
+
+.rows:last-child {
+    border-bottom: none;
+}
+
+.element {
+    padding: 0 12px;
+    flex: 1;
+}
+.deleteVector {
+    /* 8726424_trash_alt_icon (1) 2 */
+
+
+    fill: #655BE1;
+}
+
+.placeholder {
+    width: 107px;
+    height: 148px;
+    border: 3px dashed #655BE1;
+    border-radius: 10.7796px;
+    padding: 23% 17%; /* Internal margin */
+    justify-content: center;
+}
+
+
+.body .gallery {
+    /* Frame 11808498 */
+
+    position: absolute;
+    left: 73.64%;
+    right: 4.44%;
+    top: 18.12%;
+    bottom: 1.86%;
+}
+
+.body .gallery .galleryBg {
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #F7F7FE;
+    border: 2px solid #584DE2;
+    border-radius: 12.054px;
+
+}
+
+.body .gallery .galleryBg .help {
+    /* 8726054_info_circle_icon 1 */
+
+    position: absolute;
+    left: 88.17%;
+    right: 3.57%;
+    top: 1.31%;
+    bottom: 95.22%;
+}
+
+.body .gallery .galleryBg .help .vector {
+    /* Vector */
+
+    position: absolute;
+    /* left: 8.33%;
+right: 8.34%;
+top: 8.34%;
+bottom: 8.32%; */
+    width: 100%;
+    /* Make the SVG fill the entire width of the container */
+    height: 100%;
+
+    /*background: #908BD4;*/
+    fill: #908BD4;
+    /* Adjust color as needed */
+}
+
+.body .gallery .galleryBg .title {
+    /* Frame 11808489 */
+
+    position: absolute;
+    left: 19.64%;
+    right: 24.08%;
+    top: 1.94%;
+    bottom: 90.14%;
+
+
+}
+
+.body .gallery .galleryBg .title .cardVector {
+    /* tabler:cards */
+
+    position: absolute;
+    left: 0%;
+    right: 77%;
+    top: 5.66%;
+    bottom: 0%;
+    stroke: #584DE2;
+    stroke-width: 3.30051;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+
+}
+
+.body .gallery .galleryBg .title .name {
+    /* Gallerie */
+
+    position: absolute;
+    left: 27%;
+    right: -0.24%;
+    top: 0%;
+    bottom: 1.39%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #584DE2;
+
+
+}
+
+.body .gallery .galleryBg .assisted {
+    /* Frame 11808488 */
+
+    position: absolute;
+    left: 6.97%;
+    right: 6.46%;
+    top: 9.5%;
+    bottom: 83.2%;
+    border-radius: 12.054px;
+    /* Rectangle 17901 */
+
+
+    background: #655BE1;
+
+}
+
+.body .gallery .galleryBg .assisted .assistedVector {
+    /* Frame 11808518 */
+
+    position: absolute;
+    left: 8.35%;
+    right: 81.64%;
+    top: 10.45%;
+    bottom: 10.85%;
+
+    fill: white;
+}
+
+.body .gallery .galleryBg .assisted .nameAssisted {
+    /* Assistance */
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: white;
+
+}
+
+.switch {
+
+    /*width: 30px;
+height: 20px;*/
+    display: inline-block;
+    background-color: #655BE1;
+    border: 1.72947px solid #FFFFFF;
+    border-radius: 10px;
+
+    /* Frame 11808485 */
+    position: absolute;
+
+    left: 75.35%;
+    right: 9.16%;
+    top: 29.95%;
+    bottom: 25.12%;
+
+
+
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+
+}
+
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #655BE1;
+    border-radius: 10px;
+
+}
+
+.slider::before {
+    position: absolute;
+    cursor: pointer;
+    content: '';
+    top: 3%;
+    bottom: 3%;
+    left: 5%;
+    right: 53%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    /*transition: 0.4s;*/
+
+}
+
+input:checked+.slider {
+
+    background-color: #61e410;
+}
+
+input:checked+.slider::before {
+
+    transform: translateX(110%);
+}
+
+.body .gallery .galleryBg .cardSwitcher {
+    /* Frame 11808520 */
+
+    position: absolute;
+    left: 6.7%;
+    right: 5.67%;
+    top: 19.78%;
+    bottom: 72.55%;
+
+    /* Rectangle 17897 */
+    background: #F4F4F6;
+    border: 1px solid #584DE2;
+    border-radius: 9.21045px;
+
+}
+
+.body .gallery .galleryBg .cardSwitcher .firstChoice {
+    /* Frame 11808509 */
+
+    position: absolute;
+    left: 0.57%;
+    right: 68.57%;
+    top: 2.17%;
+    bottom: 2.86%;
+
+    
+    border-radius: 6px;
+
+}
+
+.body .gallery .galleryBg .cardSwitcher .firstChoice .twoCardsVector {
+    position: absolute;
+left: 29.35%;
+right: 28.96%;
+top: 10.74%;
+bottom: 21.51%;
+}
+
+.body .gallery .galleryBg .cardSwitcher .secondChoice {
+    /* Frame 11808509 */
+
+    position: absolute;
+    left: 33.57%;
+    right: 33.57%;
+    top: 2.17%;
+    bottom: 2.86%;
+
+    
+    border-radius: 6px;
+
+}
+
+.body .gallery .galleryBg .cardSwitcher .secondChoice .threeCardsVector {
+
+position: absolute;
+left: 20%;
+right: 2.96%;
+top: 1.74%;
+bottom: 21.51%;
+}
+
+.body .gallery .galleryBg .cardSwitcher .thirdChoice {
+    /* Frame 11808509 */
+
+    position: absolute;
+    left: 68.57%;
+    right: 0.57%;
+    top: 2.17%;
+    bottom: 2.86%;
+
+   
+    border-radius: 6px;
+
+}
+
+.body .gallery .galleryBg .cardSwitcher .thridChoice .fourCardsVector {
+  /* Frame 11808570 */
+
+position: absolute;
+left: 74.64%;
+right: 6.78%;
+top: 2.73%;
+bottom: 2.01%;
+
+
+}
+
+.body .gallery .galleryBg .cardSwitcher .firstChoice:hover {
+   
+
+    background: #655BE1;
+    border: 1.27963px solid #584DE2;
+   
+
+}
+.body .gallery .galleryBg .cardSwitcher .firstChoice:active {
+   
+
+    background: #655BE1;
+    border: 1.27963px solid #584DE2;
+   
+
+}
+
+
+
+.body .gallery .galleryBg .cardSwitcher .secondChoice:hover {
+    
+
+    background: #655BE1;
+    border: 1.27963px solid #584DE2;
+   
+
+}
+
+.body .gallery .galleryBg .cardSwitcher .secondChoice:active {
+    
+
+    background: #655BE1;
+    border: 1.27963px solid #584DE2;
+   
+
+}
+
+.body .gallery .galleryBg .cardSwitcher .thirdChoice:hover {
+  
+
+    background: #655BE1;
+    border: 1.27963px solid #584DE2;
+
+
+}
+
+.body .gallery .galleryBg .cardSwitcher .thirdChoice:active {
+  
+
+    background: #655BE1;
+    border: 1.27963px solid #584DE2;
+
+
+}
+
+.body .gallery .galleryBg .gameChoice {
+    /* Frame 11808510 */
+
+position: absolute;
+left: 7.08%;
+right: 6.29%;
+top: 29.26%;
+bottom: 63.07%;
+
+background: #F4F4F6;
+border: 1px solid #584DE2;
+border-radius: 9.21045px;
+
+}
+
+.body .gallery .galleryBg .gameChoice .content {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.body .gallery .galleryBg .gameChoice .name {
+
+position: absolute;
+left: 6.43%;
+right: 46.79%;
+top: 23.88%;
+bottom: 25.27%;
+
+font-family: 'Fredoka One', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14.4286px;
+line-height: 23px;
+/* identical to box height */
+text-align: center;
+
+color: #584DE2;
+
+
+
+
+
+}
+
+.body .gallery .galleryBg .gameChoice .vectorDropDown {
+    /* Vector */
+
+position: absolute;
+left: 88.57%;
+right: 8.88%;
+top: 44.64%;
+bottom: 15.47%;
+fill: #584DE2;
+}
+.body .gallery .galleryBg .store {
+    /* Frame 11808571 */
+
+position: absolute;
+left: 6.39%;
+right: 6.5%;
+top: 39.21%;
+bottom: 1.91%;
+
+}
+
+.body .gallery .galleryBg .store .title {
+    /* Consulter votre Gallerie */
+
+position: absolute;
+left: 3.28%;
+right: 4.51%;
+top: 0%;
+bottom: 96.05%;
+
+font-family: 'Fredoka One', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 13.8824px;
+line-height: 17px;
+/* identical to box height */
+display: flex;
+align-items: center;
+
+color: #6157E4;
+
+
+}
+
+.body .gallery .galleryBg .store .body {
+ /* Frame 11808572 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 4.88%;
+bottom: 0%;
+background: #EFEEF8;
+border: 1.05071px solid #584DE2;
+border-radius: 7.35494px;
+}
+
+.body .gallery .galleryBg .store .body .recent{
+position: absolute;
+left: 8.42%;
+right: 8.42%;
+top: 2.78%;
+bottom: 51.21%;
+background: #E4E3F0;
+border-radius: 8px;
+display: flex; /* Use Flexbox */
+justify-content: space-between; /* Distribute items evenly */
+}
+.body .gallery .galleryBg .store .body .recent .title {
+    /* Rectangle 17909 */
+
+position: absolute;
+left: 5.89%;
+right: 5.45%;
+top: 5.44%;
+bottom: 75.08%;
+
+background: #FFFFFF;
+opacity: 0.4;
+border-radius: 3.75587px;
+
+}
+
+.body .gallery .galleryBg .store .body .recent .title .content {
+    /* Dernières Cartes Utilisées */
+
+position: absolute;
+left: 1.36%;
+right: 1.73%;
+top: 12.84%;
+bottom: 77.42%;
+
+font-family: 'Fredoka One', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+text-align: center;
+
+color: #584DE2;
+
+
+}
+
+.body .gallery .galleryBg .store .body .recent .container {
+
+margin-top: 22%;
+margin-inline: 15%;
+display: flex; /* Use Flexbox */
+  justify-content: space-between; /* Distribute items evenly */
+
+
+}
+.body .gallery .galleryBg .store .body .recent .cardsOne .card { 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.body .gallery .galleryBg .store .body .recent .cardTwo {
+   
+position: relative;
+left: 58.57%;
+right: 15.45%;
+top: -38.82%;
+bottom: 9.64%;
+
+
+
+}
+.body .gallery .galleryBg .store .body .recent .cardsOne .card { 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.body .gallery .galleryBg .store .body .recent .seperation {
+
+position: absolute;
+left: 50.22%;
+right: 49.78%;
+top: 31.82%;
+bottom: 10.14%;
+
+border: 1.64px solid rgba(101, 91, 225, 0.62);
+
+}
+
+.body .gallery .galleryBg .store .body .cardDeck {
+position: absolute;
+left: 26.1%;
+right: 26.6%;
+top: 48.58%;
+bottom: 2.31%;
+filter: drop-shadow(3.44401px 3.44401px 18.942px #A29ED4);
+}
+
+.body .gallery .galleryBg .store .body .cardDeck .vector {
+    width: 100%; 
+    height: 100%;
+  }

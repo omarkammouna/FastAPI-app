@@ -1,0 +1,14 @@
+
+.mainPageHandler {
+    background-color: #eeeeee;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    border-radius: 5px;
+  
+}
+
+
+  .blackborderbottom {
+    border-bottom: 1px solid black !important; /* Add !important to override existing styles */
+  }

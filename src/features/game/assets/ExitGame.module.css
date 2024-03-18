@@ -1,0 +1,154 @@
+
+.modalBackdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12.6907px;
+  }
+.bg {
+    /* Rectangle 17877 */
+    /* Frame 11808562 */
+
+    position: absolute;
+    left: 31.46%;
+    right: 35%;
+    top: 23.15%;
+    bottom: 20.37%;
+
+    background: #FFFFFF;
+    border: 1.98193px solid #61BB61;
+    border-radius: 18.8283px;
+
+}
+
+.bg .exit {
+    /* Frame 11808542 */
+
+    position: absolute;
+    left: 3.69%;
+    right: 90.58%;
+    top: 4.91%;
+    bottom: 87.81%;
+
+
+}
+
+.bg .title {
+
+    position: absolute;
+    left: 18.61%;
+    right: 7.01%;
+    top: 13.14%;
+    bottom: 79.71%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: 40px;
+
+    color: #434343;
+
+
+
+}
+
+.bg .body {
+    /* 8726424_trash_alt_icon (1) 1 */
+
+    position: absolute;
+    left: 30.41%;
+    right: 34.07%;
+    top: 28.76%;
+    bottom: 31.93%;
+
+
+}
+
+.bg .body .discardVector {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    fill: #61BB61;
+
+}
+
+.bg .saveButton {
+
+    /* Frame 11808567 */
+
+    position: absolute;
+    left: 50.66%;
+    right: 13.27%;
+    top: 78.17%;
+    bottom: 11.17%;
+
+
+
+    background: #61BB61;
+    border-radius: 10.5091px;
+    border: 2px solid #3BCA3B;
+
+}
+
+.bg .saveButton .text {
+
+    position: absolute;
+    left: 17.29%;
+    right: 33.71%;
+    top: 14.33%;
+    bottom: 16.68%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+
+.bg .discardButton {
+    /* Frame 11808566 */
+
+position: absolute;
+left: 11.28%;
+right: 52.65%;
+top: 78.17%;
+bottom: 11.17%;
+
+background: #939292;
+border-radius: 10.5091px;
+border: 2px solid #a6a6a6;
+
+
+}
+
+.bg .discardButton .text {
+    position: absolute;
+    left: 15.29%;
+    right: 33.71%;
+    top: 14.33%;
+    bottom: 16.68%;
+
+    font-family: 'Fredoka One', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.2vw;
+    line-height: 25px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+}

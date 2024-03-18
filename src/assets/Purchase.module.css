@@ -1,0 +1,27 @@
+
+
+.purchase {
+  box-sizing: border-box;
+  background-color: #3f3f3f;
+  margin: 0;
+}
+
+
+
+
+.purchase button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #926BE6;
+  border: 1px solid #926BE6;
+}
+
+.purchase button:hover,
+.purchase button:active {
+  background-color: #b8a6df;
+  border-color: #b8a6df;
+  color: white;
+}

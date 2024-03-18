@@ -1,0 +1,48 @@
+.testPage{
+    background-color: black;
+    /*float: right;*/
+    display: flex;
+    width: 6cm;
+    position: absolute; /* Position the div relative to its closest positioned ancestor */
+    top: 100px;  /*Position the div 5 pixels from the top */
+    right: 5px;  /*Position the div 5 pixels from the right */
+    border-radius: 15px;
+    display: inline;
+}
+.header{
+   
+    
+    top: 15px;
+    left: 35px;
+    position: relative;
+
+    
+}
+.testDrop{
+    position: absolute; /* Position the div relative to its closest positioned ancestor */
+    /*top: 50px;  Position the div 5 pixels from the top */
+    /*left: 50px;  Position the div 5 pixels from the right */
+    text-align: center;
+    display:flex;
+  
+    
+}
+
+.droppedCard {
+	top: 474px;
+	left: 914px;
+	width: 140px;
+	height: 98px;
+	-ms-border-radius: 15px;
+	-o-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	border: 12px solid #000000;
+	background:rgba(255,255,255,1);
+}
+
+.addButton {
+	display: inline-block;
+    /*background-color: aqua;*/
+}

@@ -1,0 +1,95 @@
+:root {
+	--dark-color: 		#323A45;
+
+	--color-fff:		#FFFFFF;
+	--color-100:		#F0F0F0;
+	--color-200:		#EEEEEE;
+	--color-300:		#E0E0E0;
+	--color-400:		#BDBDBD;
+	--color-500:		#555555;
+	--color-600:		#757575;
+	--color-700:		#616161;
+	--color-800:		#424242;
+	--color-900:		#212121;
+	--color-000:		#000000;
+
+	--border-color:		#f6f6f6;
+	--card-color: 		#ffffff;
+	--body-color: 		#ffffff;
+	--white-color: 		#ffffff;
+	--sidebar-color:	#fcfcfc;
+    --text-color:       #212529;
+
+	--hc-font-color:	#555555;
+	--hc-bg-color:		#f0f0f0;
+
+}
+
+[data-theme="dark"] {
+	--dark-color: 		#323A45;
+
+	--color-fff:		#000000;
+	--color-100:		#212121;
+	--color-200:		#262727;
+	--color-300:		#616161;
+	--color-400:		#757575;
+	--color-500:		#8f8f8f;
+	--color-600:		#BDBDBD;
+	--color-700:		#E0E0E0;
+	--color-800:		#EEEEEE;
+	--color-900:		#F0F0F0;
+	--color-000:		#FFFFFF;
+
+	--border-color:		#353535;
+	--card-color: 		#262727;
+	--body-color: 		#1e1f20;
+	--white-color: 		#ffffff;
+	--sidebar-color:	#fcfcfc;
+    --text-color:       #8f8f8f;
+
+	--hc-font-color:	#555555;
+	--hc-bg-color:		#f0f0f0;
+
+    [class="theme-black"] {
+        
+        --secondary-color: 	#E2B659;
+        --primary-gradient: linear-gradient(45deg, #f5558d, #FF1843);
+    }
+    [class="theme-purple"] {
+        --secondary-color: 	#967dcc;
+        --primary-gradient: linear-gradient(45deg, #835ec7, #967dcc);
+    }
+}
+
+[class="theme-black"] {
+	--primary-color: 	#000000;
+	--secondary-color: 	#E2B659;
+
+    --chart-color1: 	#000000;
+    --chart-color2: 	#E2B659;
+
+
+	--primary-gradient: linear-gradient(45deg, #f5558d, #FF1843);
+}
+[class="theme-purple"] {
+    --primary-color: 	#000000;
+    --secondary-color: 	#926BE6;
+
+    --chart-color1: 	#a7daff;
+    --chart-color2: 	#a8d7e0;
+    --chart-color3: 	#2586a4;
+    --chart-color4: 	#55596a;
+    --chart-color5: 	#FFAA8A; 
+    --chart-color6: 	#fadd8e;
+    --chart-color7: 	#5093f8;
+    --chart-color8: 	#faa0a2;
+    
+	--primary-gradient: linear-gradient(45deg, #5a2ee2, #8c32d2);
+}
+
+.secondary-color{
+    color: var(--secondary-color);
+}
+.secondary-color-fill{
+    fill: var(--secondary-color);
+}
