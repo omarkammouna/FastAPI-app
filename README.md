@@ -22,7 +22,7 @@
 First clone this repo by using following command
 ````
 
-git clone https://github.com/Sanjeev-Thiyagarajan/fastapi-course.git
+git clone https://github.com/omarkammouna/FastAPI-app.git
 
 ````
 then 
